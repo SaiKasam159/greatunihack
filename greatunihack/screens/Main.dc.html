@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Goals</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+body{margin:0}
+a{color:#1A73E8}a:hover{color:#1557B0}
+button{font-family:inherit}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; padding: 24px 24px 28px; display: flex; flex-direction: column; gap: 20px; background: #FFFFFF; color: #16181D; font-family: Inter, system-ui, sans-serif; overflow: hidden">
+  <div style="display: flex; align-items: center; gap: 12px; height: 44px">
+    <div style="flex: 1; height: 4px; border-radius: 2px; background: #ECEDF1; overflow: hidden"><div style="width: 20%; height: 4px; background: #1A73E8"></div></div>
+    <span style="font-size: 13px; font-weight: 500; color: #5F6475">1 of 5</span>
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 8px">
+    <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: #5F6475">YOUR COACH</span>
+    <h1 style="margin: 0; font-size: 26px; line-height: 1.2; font-weight: 600; letter-spacing: -0.01em">What do you want your money to do?</h1>
+    <p style="margin: 0; font-size: 15px; line-height: 1.5; color: #5F6475">Pick everything that fits. Your plans get built around it.</p>
+  </div>
+  <div style="display: flex; flex-direction: column; gap: 8px">
+    <button onClick="{{t.nights}}" aria-pressed="{{p.nights}}" style="position: relative; display: flex; align-items: center; gap: 14px; width: 100%; min-height: 60px; padding: 10px 14px; border-radius: 14px; border: 0; background: #F4F5F7; color: #16181D; text-align: left; cursor: pointer">
+      <sc-if value="{{on.nights}}" hint-placeholder-val="{{false}}"><span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 14px; border: 1.5px solid #1A73E8; pointer-events: none"></span></sc-if>
+      <span style="width: 40px; height: 40px; border-radius: 20px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16181D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4h10l-1 6a4 4 0 0 1-8 0z"></path><path d="M12 14v6M9 20h6"></path></svg></span>
+      <span style="flex: 1; font-size: 15px; font-weight: 500">Stop overspending on nights out and events</span>
+      <sc-if value="{{on.nights}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 11px; background: #1A73E8; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></sc-if>
+      <sc-if value="{{off.nights}}" hint-placeholder-val="{{true}}"><span style="width: 22px; height: 22px; border-radius: 11px; border: 1.5px solid #C9CCD6; box-sizing: border-box; flex-shrink: 0"></span></sc-if>
+    </button>
+    <button onClick="{{t.payday}}" aria-pressed="{{p.payday}}" style="position: relative; display: flex; align-items: center; gap: 14px; width: 100%; min-height: 60px; padding: 10px 14px; border-radius: 14px; border: 0; background: #F4F5F7; color: #16181D; text-align: left; cursor: pointer">
+      <sc-if value="{{on.payday}}" hint-placeholder-val="{{false}}"><span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 14px; border: 1.5px solid #1A73E8; pointer-events: none"></span></sc-if>
+      <span style="width: 40px; height: 40px; border-radius: 20px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16181D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2.5"></rect><path d="M16 12.5h2M3 10h18"></path></svg></span>
+      <span style="flex: 1; font-size: 15px; font-weight: 500">Stop running out before payday</span>
+      <sc-if value="{{on.payday}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 11px; background: #1A73E8; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></sc-if>
+      <sc-if value="{{off.payday}}" hint-placeholder-val="{{true}}"><span style="width: 22px; height: 22px; border-radius: 11px; border: 1.5px solid #C9CCD6; box-sizing: border-box; flex-shrink: 0"></span></sc-if>
+    </button>
+    <button onClick="{{t.emergency}}" aria-pressed="{{p.emergency}}" style="position: relative; display: flex; align-items: center; gap: 14px; width: 100%; min-height: 60px; padding: 10px 14px; border-radius: 14px; border: 0; background: #F4F5F7; color: #16181D; text-align: left; cursor: pointer">
+      <sc-if value="{{on.emergency}}" hint-placeholder-val="{{false}}"><span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 14px; border: 1.5px solid #1A73E8; pointer-events: none"></span></sc-if>
+      <span style="width: 40px; height: 40px; border-radius: 20px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16181D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z"></path></svg></span>
+      <span style="flex: 1; font-size: 15px; font-weight: 500">Build an emergency fund</span>
+      <sc-if value="{{on.emergency}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 11px; background: #1A73E8; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></sc-if>
+      <sc-if value="{{off.emergency}}" hint-placeholder-val="{{true}}"><span style="width: 22px; height: 22px; border-radius: 11px; border: 1.5px solid #C9CCD6; box-sizing: border-box; flex-shrink: 0"></span></sc-if>
+    </button>
+    <button onClick="{{t.big}}" aria-pressed="{{p.big}}" style="position: relative; display: flex; align-items: center; gap: 14px; width: 100%; min-height: 60px; padding: 10px 14px; border-radius: 14px; border: 0; background: #F4F5F7; color: #16181D; text-align: left; cursor: pointer">
+      <sc-if value="{{on.big}}" hint-placeholder-val="{{false}}"><span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 14px; border: 1.5px solid #1A73E8; pointer-events: none"></span></sc-if>
+      <span style="width: 40px; height: 40px; border-radius: 20px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16181D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"></circle><circle cx="12" cy="12" r="3.5"></circle></svg></span>
+      <span style="flex: 1; font-size: 15px; font-weight: 500">Save for something big</span>
+      <sc-if value="{{on.big}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 11px; background: #1A73E8; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></sc-if>
+      <sc-if value="{{off.big}}" hint-placeholder-val="{{true}}"><span style="width: 22px; height: 22px; border-radius: 11px; border: 1.5px solid #C9CCD6; box-sizing: border-box; flex-shrink: 0"></span></sc-if>
+    </button>
+    <button onClick="{{t.invest}}" aria-pressed="{{p.invest}}" style="position: relative; display: flex; align-items: center; gap: 14px; width: 100%; min-height: 60px; padding: 10px 14px; border-radius: 14px; border: 0; background: #F4F5F7; color: #16181D; text-align: left; cursor: pointer">
+      <sc-if value="{{on.invest}}" hint-placeholder-val="{{false}}"><span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 14px; border: 1.5px solid #1A73E8; pointer-events: none"></span></sc-if>
+      <span style="width: 40px; height: 40px; border-radius: 20px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16181D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 18l5-5 4 3 7-8"></path><path d="M15 8h5v5"></path></svg></span>
+      <span style="flex: 1; font-size: 15px; font-weight: 500">Start investing for the long term</span>
+      <sc-if value="{{on.invest}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 11px; background: #1A73E8; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></sc-if>
+      <sc-if value="{{off.invest}}" hint-placeholder-val="{{true}}"><span style="width: 22px; height: 22px; border-radius: 11px; border: 1.5px solid #C9CCD6; box-sizing: border-box; flex-shrink: 0"></span></sc-if>
+    </button>
+    <button onClick="{{t.debt}}" aria-pressed="{{p.debt}}" style="position: relative; display: flex; align-items: center; gap: 14px; width: 100%; min-height: 60px; padding: 10px 14px; border-radius: 14px; border: 0; background: #F4F5F7; color: #16181D; text-align: left; cursor: pointer">
+      <sc-if value="{{on.debt}}" hint-placeholder-val="{{false}}"><span style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; border-radius: 14px; border: 1.5px solid #1A73E8; pointer-events: none"></span></sc-if>
+      <span style="width: 40px; height: 40px; border-radius: 20px; background: #FFFFFF; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#16181D" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2.5"></rect><path d="M3 10.5h18M7 15h4"></path></svg></span>
+      <span style="flex: 1; font-size: 15px; font-weight: 500">Pay off my debt</span>
+      <sc-if value="{{on.debt}}" hint-placeholder-val="{{false}}"><span style="width: 22px; height: 22px; border-radius: 11px; background: #1A73E8; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span></sc-if>
+      <sc-if value="{{off.debt}}" hint-placeholder-val="{{true}}"><span style="width: 22px; height: 22px; border-radius: 11px; border: 1.5px solid #C9CCD6; box-sizing: border-box; flex-shrink: 0"></span></sc-if>
+    </button>
+  </div>
+  <div style="flex-grow: 1"></div>
+  <a href="Situation.dc.html" style="display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 14px; background: #1A73E8; color: #FFFFFF; font-size: 16px; font-weight: 600; text-decoration: none">Continue</a>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { picked: { nights: true, emergency: true, invest: true } };
+  }
+  renderVals() {
+    const ids = ['nights', 'payday', 'emergency', 'big', 'invest', 'debt'];
+    const picked = this.state.picked;
+    const on = {}, off = {}, p = {}, t = {};
+    ids.forEach((id) => {
+      on[id] = !!picked[id];
+      off[id] = !picked[id];
+      p[id] = picked[id] ? 'true' : 'false';
+      t[id] = () => this.setState({ picked: Object.assign({}, picked, { [id]: !picked[id] }) });
+    });
+    return { on: on, off: off, p: p, t: t };
+  }
+}
+</script>
+</body>
+</html>

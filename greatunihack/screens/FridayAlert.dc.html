@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Red zone alert</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+body{margin:0}
+a{color:#1A73E8}a:hover{color:#1557B0}
+button{font-family:inherit}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; padding: 16px 24px 28px; display: flex; flex-direction: column; gap: 14px; background: #FFFFFF; color: #16181D; font-family: Inter, system-ui, sans-serif; overflow: hidden">
+  <div style="display: flex; align-items: center; justify-content: space-between; height: 44px">
+    <a href="Home.dc.html" aria-label="Back to home" style="width: 44px; height: 44px; border-radius: 22px; background: #F4F5F7; display: flex; align-items: center; justify-content: center"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M15 5l-7 7 7 7" stroke="#16181D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+    <span style="font-size: 15px; font-weight: 600">Red zone alert</span>
+    <span style="width: 44px"></span>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 10px; padding: 16px; border-radius: 16px; background: #FFF4EC">
+    <span style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: #B93A0B">FROM YOUR CALENDAR · TONIGHT, 7PM</span>
+    <h1 style="margin: 0; font-size: 22px; line-height: 1.2; font-weight: 600; letter-spacing: -0.01em">Jess's birthday drinks</h1>
+    <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #3F4350">Birthdays usually cost you £110. That's about £70 more than a normal night out.</p>
+    <span style="font-size: 11px; font-weight: 600; letter-spacing: 0.06em; color: #5F6475; margin-top: 2px">WHY YOU'RE GETTING THIS</span>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px">
+      <span style="font-size: 12px; font-weight: 500; padding: 6px 10px; border-radius: 10px; background: #FFFFFF">Birthday in your calendar</span>
+      <span style="font-size: 12px; font-weight: 500; padding: 6px 10px; border-radius: 10px; background: #FFFFFF">Paid 2 days ago</span>
+      <span style="font-size: 12px; font-weight: 500; padding: 6px 10px; border-radius: 10px; background: #FFFFFF">Friday night</span>
+    </div>
+  </div>
+
+  <div style="display: flex; gap: 14px; align-items: center; padding: 12px 14px; border-radius: 14px; background: #F4F5F7">
+    <svg width="60" height="36" viewBox="0 0 60 36" aria-hidden="true" style="flex-shrink: 0"><polyline points="2,32 20,24 40,14 58,3" fill="none" stroke="#1A73E8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></polyline><polyline points="2,32 20,30 40,29 58,28" fill="none" stroke="#D9480F" stroke-width="2.5" stroke-dasharray="5 4" stroke-linecap="round"></polyline></svg>
+    <span style="font-size: 13px; line-height: 1.45; color: #3F4350">Keep overspending at events like this and it's about <strong style="color: #16181D">£3.6k less</strong> in 5 years.</span>
+  </div>
+
+  <sc-if value="{{notSet}}" hint-placeholder-val="{{true}}">
+    <div style="display: flex; flex-direction: column; gap: 8px">
+      <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: #5F6475">SET A BUDGET FOR TONIGHT</span>
+      <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; padding: 4px; border-radius: 12px; background: #F4F5F7">
+        <sc-for list="{{budgets}}" as="b" hint-placeholder-count="3">
+          <sc-if value="{{b.on}}" hint-placeholder-val="{{false}}">
+            <button onClick="{{b.pick}}" aria-pressed="true" style="min-height: 44px; border-radius: 9px; border: 0; background: #FFFFFF; box-shadow: 0 1px 3px rgba(22, 24, 29, 0.12); color: #16181D; font-size: 15px; font-weight: 600; cursor: pointer">{{b.label}}</button>
+          </sc-if>
+          <sc-if value="{{b.off}}" hint-placeholder-val="{{true}}">
+            <button onClick="{{b.pick}}" aria-pressed="false" style="min-height: 44px; border-radius: 9px; border: 0; background: transparent; color: #5F6475; font-size: 15px; font-weight: 500; cursor: pointer">{{b.label}}</button>
+          </sc-if>
+        </sc-for>
+      </div>
+    </div>
+    <button onClick="{{set}}" style="min-height: 52px; border-radius: 14px; border: 0; background: #1A73E8; color: #FFFFFF; font-size: 16px; font-weight: 600; cursor: pointer">Set £{{budget}} for tonight</button>
+  </sc-if>
+  <sc-if value="{{isSet}}" hint-placeholder-val="{{false}}">
+    <div style="display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; border-radius: 14px; background: #E6F4EA">
+      <span style="width: 26px; height: 26px; border-radius: 13px; background: #1E7B38; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="#FFFFFF" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"></path></svg></span>
+      <span style="display: flex; flex-direction: column; gap: 3px"><span style="font-size: 15px; font-weight: 600">£{{budget}} set. Enjoy the party.</span><span style="font-size: 13px; line-height: 1.45; color: #2B4A33">I'll nudge you quietly at £{{warn}}. See you tomorrow morning for your check-in.</span></span>
+    </div>
+    <a href="Home.dc.html" style="display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 14px; background: #1A73E8; color: #FFFFFF; font-size: 16px; font-weight: 600; text-decoration: none">Done</a>
+  </sc-if>
+
+  <div style="display: flex; flex-direction: column; gap: 2px; margin-top: 6px">
+    <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: #5F6475; margin-bottom: 6px">COMING UP IN YOUR CALENDAR</span>
+    <div style="display: flex; align-items: center; gap: 12px; min-height: 52px; border-bottom: 1px solid #ECEDF1">
+      <span style="width: 40px; display: flex; flex-direction: column; align-items: center; flex-shrink: 0"><span style="font-size: 10px; font-weight: 600; color: #5F6475">WED</span><span style="font-size: 16px; font-weight: 600">11</span></span>
+      <span style="flex: 1; font-size: 14px; font-weight: 500">Sports night</span>
+      <span style="font-size: 12px; color: #5F6475">usually +£18</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px; min-height: 52px; border-bottom: 1px solid #ECEDF1">
+      <span style="width: 40px; display: flex; flex-direction: column; align-items: center; flex-shrink: 0"><span style="font-size: 10px; font-weight: 600; color: #5F6475">FRI</span><span style="font-size: 16px; font-weight: 600">11</span></span>
+      <span style="flex: 1; font-size: 14px; font-weight: 500">Work Christmas party</span>
+      <span style="font-size: 12px; color: #5F6475">usually +£95</span>
+    </div>
+    <div style="display: flex; align-items: center; gap: 12px; min-height: 52px">
+      <span style="width: 40px; display: flex; flex-direction: column; align-items: center; flex-shrink: 0"><span style="font-size: 10px; font-weight: 600; color: #5F6475">DEC</span><span style="font-size: 16px; font-weight: 600">25</span></span>
+      <span style="flex: 1; font-size: 14px; font-weight: 500">Christmas</span>
+      <span style="font-size: 12px; color: #5F6475">usually +£420</span>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { budget: 40, isSet: false };
+  }
+  renderVals() {
+    const b = this.state.budget;
+    return {
+      budget: b,
+      warn: Math.round(b * 0.75),
+      isSet: this.state.isSet,
+      notSet: !this.state.isSet,
+      set: () => this.setState({ isSet: true }),
+      budgets: [30, 40, 60].map((v) => ({
+        label: '£' + v,
+        on: v === b,
+        off: v !== b,
+        pick: () => this.setState({ budget: v })
+      }))
+    };
+  }
+}
+</script>
+</body>
+</html>
