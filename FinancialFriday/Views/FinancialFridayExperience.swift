@@ -1,7 +1,7 @@
 import SwiftData
 import SwiftUI
 
-private enum GU {
+enum GU {
     static let ink = Color(red: 22/255, green: 24/255, blue: 29/255)
     static let secondary = Color(red: 95/255, green: 100/255, blue: 117/255)
     static let surface = Color(red: 244/255, green: 245/255, blue: 247/255)
@@ -232,6 +232,9 @@ private struct HomeView: View {
                     NavigationLink { OverviewView(summary: summary) } label: {
                         Label("View full financial overview", systemImage: "chart.bar.xaxis").font(.system(size: 14, weight: .semibold)).frame(maxWidth: .infinity).padding(14).background(GU.surface, in: RoundedRectangle(cornerRadius: 14))
                     }.buttonStyle(.plain)
+                    NavigationLink { CalendarInsightsView() } label: {
+                        Label("Calendar insights", systemImage: "calendar.badge.clock").font(.system(size: 14, weight: .semibold)).frame(maxWidth: .infinity).padding(14).background(GU.surface, in: RoundedRectangle(cornerRadius: 14))
+                    }.buttonStyle(.plain)
                 }.padding(.horizontal, 16).padding(.top, 8).padding(.bottom, 18)
             }
             .background(.white)
@@ -333,6 +336,20 @@ private struct RedZonesView: View {
                 Text("WHAT COSTS YOU MOST").eyebrow()
                 ForEach(Array(analysis.redZones.enumerated()), id: \.element.id) { index, zone in
                     RankedRow(rank: index + 1, title: zone.title, detail: zone.detail, level: zone.severity)
+                }
+                if !onboarding {
+                    NavigationLink { CalendarInsightsView() } label: {
+                        HStack(spacing: 12) {
+                            Image(systemName: "calendar.badge.clock").font(.system(size: 16)).frame(width: 40, height: 40).background(.white, in: Circle()).foregroundStyle(GU.blue)
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("From your calendar").font(.system(size: 15, weight: .semibold))
+                                Text("Birthdays, ceremonies and trips with an estimated cost").font(.caption).foregroundStyle(GU.secondary)
+                            }
+                            Spacer()
+                            Image(systemName: "chevron.right").font(.caption).foregroundStyle(GU.secondary)
+                        }
+                        .padding(10).background(GU.surface, in: RoundedRectangle(cornerRadius: 14))
+                    }.buttonStyle(.plain)
                 }
             }.padding(onboarding ? 24 : 16)
         }.scrollIndicators(.hidden)
@@ -466,6 +483,9 @@ private struct SaturdayCheckinView: View {
                 } else {
                     if analysis.weeklyOverrun > 0 { PrimaryButton("Use this repair plan") { withAnimation { profile.forecastRepaired = true } } }
                 }
+                NavigationLink { PriceCheckView() } label: {
+                    Label("Check a price before you buy", systemImage: "camera.viewfinder").font(.system(size: 14, weight: .semibold)).frame(maxWidth: .infinity).padding(14).background(GU.paleBlue, in: RoundedRectangle(cornerRadius: 14))
+                }.buttonStyle(.plain)
             }.padding(16)
         }.navigationTitle("Weekly check-in").navigationBarTitleDisplayMode(.inline)
             .onAppear { profile.lastCheckInAt = .now }
@@ -525,6 +545,6 @@ private struct PrimaryButton: View {
     var body: some View { Button(action: action) { Text(title).font(.system(size: 16, weight: .semibold)).frame(maxWidth: .infinity, minHeight: 52).foregroundStyle(.white).background(GU.blue, in: RoundedRectangle(cornerRadius: 14)) }.buttonStyle(.plain) }
 }
 
-private extension Text {
+extension Text {
     func eyebrow() -> some View { self.font(.system(size: 12, weight: .semibold)).tracking(0.7).foregroundStyle(GU.secondary) }
 }
