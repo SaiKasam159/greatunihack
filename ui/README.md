@@ -52,4 +52,11 @@ Each screen is one HTML file: the markup is plain HTML with inline styles (easy 
 | Radius | 14px rows, 16–18px cards, 36px phone | |
 | Section labels | 12px, 600, 0.06em tracking, uppercase | "YOUR FINANCIAL FUTURE" etc. |
 
-Screen size: 390 × 844 (iPhone 14/15).
+## n8n backend
+
+Two workflows live at https://shalev787.app.n8n.cloud/ (see `n8n/README.md` and `ui/n8n.html`):
+
+- **Product Image Price Finder** (`MWZPSMDBFffpwAO0`) — photo + optional country code → Google Shopping exact/similar → CSV (shop, price, link). Needs a SerpAPI key in the setup panel.
+- **Calendar Spending Analysis** (`bBzOW9QXmA2lbGNj`) — days ahead + currency → Google Calendar events → CSV (date, title, type, spending level, big spending, estimate, cost drivers, confidence, tip). Needs Google Calendar connected.
+
+Both run on Gateway credits; neither has run against real data yet (only simulated). To test either, tell Shalev — Workflow 1 needs a product photo.

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>n8n workflows – Finance Your Friday</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+  body { margin: 0; font-family: Inter, system-ui, sans-serif; background: #FFFFFF; color: #16181D; }
+  main { max-width: 760px; margin: 0 auto; padding: 56px 24px; }
+  h1 { margin: 0 0 8px; font-size: 32px; font-weight: 600; letter-spacing: -0.01em; }
+  p { margin: 0 0 32px; color: #5F6475; line-height: 1.5; }
+  h2 { margin: 32px 0 10px; font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: #5F6475; }
+  .card { padding: 16px; border-radius: 14px; background: #F4F5F7; margin-bottom: 12px; }
+  .card h3 { margin: 0 0 6px; font-size: 16px; font-weight: 600; }
+  .row { display: flex; justify-content: space-between; gap: 12px; margin: 4px 0; font-size: 14px; }
+  .label { color: #5F6475; }
+  .id { font-family: ui-monospace, monospace; font-size: 13px; }
+  a.btn { display: inline-block; margin-top: 10px; padding: 8px 14px; border-radius: 10px; background: #1A73E8; color: #fff; text-decoration: none; font-weight: 600; font-size: 14px; }
+  a.btn:hover { background: #1557b0; }
+  a.back { color: #5F6475; text-decoration: none; font-size: 14px; display: inline-block; margin-bottom: 24px; }
+  ul { margin: 8px 0 0 20px; color: #5F6475; line-height: 1.6; font-size: 14px; }
+  .note { background: #FFF4EC; color: #B93A0B; padding: 12px 14px; border-radius: 12px; font-size: 14px; margin: 16px 0; }
+</style>
+</head>
+<body>
+<main>
+  <a class="back" href="index.html">← Back to screens</a>
+  <h1>n8n workflows</h1>
+  <p>Backend workflows that feed the screens below. Both are web forms that end with a downloadable CSV. They run on Gateway credits, so they need no AI key from you.</p>
+
+  <h2>WORKFLOW 1</h2>
+  <div class="card">
+    <h3>Product Image Price Finder</h3>
+    <div class="row"><span class="label">ID</span><span class="id">MWZPSMDBFffpwAO0</span></div>
+    <div class="row"><span class="label">Input</span><span>product photo + optional country code (default uk)</span></div>
+    <div class="row"><span class="label">Steps</span><span>AI reads the image for brand/model/text, then two Google Shopping searches (exact + similar)</span></div>
+    <div class="row"><span class="label">Output</span><span>CSV: cheapest exact match, other models from the same brand, similar products from other brands with price notes</span></div>
+    <div class="row"><span class="label">Still needed</span><span>SerpAPI key in the setup panel</span></div>
+    <a class="btn" href="https://shalev787.app.n8n.cloud/workflow/MWZPSMDBFffpwAO0" target="_blank" rel="noopener">Open workflow</a>
+  </div>
+
+  <h2>WORKFLOW 2</h2>
+  <div class="card">
+    <h3>Calendar Spending Analysis</h3>
+    <div class="row"><span class="label">ID</span><span class="id">bBzOW9QXmA2lbGNj</span></div>
+    <div class="row"><span class="label">Input</span><span>days ahead (default 90) + currency</span></div>
+    <div class="row"><span class="label">Steps</span><span>reads Google Calendar, keeps birthdays/festivals/ceremonies/special events, ignores routine meetings; AI estimates spend from title/description/location/guests</span></div>
+    <div class="row"><span class="label">Output</span><span>CSV: date, title, type, spending level, big spending, estimated spend, cost drivers, confidence, tip</span></div>
+    <div class="row"><span class="label">Still needed</span><span>connect Google Calendar and pick the calendar in setup (currently primary)</span></div>
+    <a class="btn" href="https://shalev787.app.n8n.cloud/workflow/bBzOW9QXmA2lbGNj" target="_blank" rel="noopener">Open workflow</a>
+  </div>
+
+  <h2>HOW THE UI USES THEM</h2>
+  <ul>
+    <li>Screen 4 (Your red zones) — Workflow 2: calendar events → ranked red zones with cost drivers</li>
+    <li>Screen 8 (Red zone alert) — Workflow 2: upcoming event, predicted cost, reasons, coming-up list</li>
+    <li>Screen 9 (Morning-after check-in) — Workflow 1: photo of last night's receipt → price comparison</li>
+  </ul>
+
+  <div class="note">Neither workflow has run against real data yet — only simulated shop results, calendar events and AI answers. To test either one live, tell Shalev; Workflow 1 needs a product photo.</div>
+</main>
+</body>
+</html>
