@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Coach walkthrough</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<style>
+body{margin:0}
+a{color:#1A73E8}a:hover{color:#1557B0}
+button{font-family:inherit}
+</style>
+</helmet>
+<div style="position: relative; width: 390px; height: 844px; overflow: hidden; background: #FFFFFF; color: #16181D; font-family: Inter, system-ui, sans-serif">
+  <div style="position: absolute; top: 0; left: 0; width: 390px; height: 844px" aria-hidden="true">
+    <dc-import name="Home" hint-size="390px,844px"></dc-import>
+  </div>
+
+  <sc-if value="{{s0}}" hint-placeholder-val="{{true}}">
+    <div style="position: absolute; top: 10px; left: 10px; width: 118px; height: 52px; border-radius: 26px; border: 2px solid #1A73E8; box-sizing: border-box; box-shadow: 0 0 0 2000px rgba(15, 17, 23, 0.62)"></div>
+    <div style="position: absolute; top: 78px; left: 16px; width: 358px; box-sizing: border-box; padding: 18px; border-radius: 16px; background: #FFFFFF; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); display: flex; flex-direction: column; gap: 8px">
+      <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: #5F6475">YOUR COACH · 1 OF 3</span>
+      <span style="font-size: 17px; font-weight: 600">This is your streak</span>
+      <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #3F4350">It goes up every week you check in, even after a bad night. Showing up counts more than being perfect.</p>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 4px">
+        <a href="Home.dc.html" style="font-size: 14px; font-weight: 500; padding: 12px 2px; color: #5F6475; text-decoration: none">Skip tour</a>
+        <button onClick="{{next}}" style="min-height: 44px; padding: 0 22px; border-radius: 12px; border: 0; background: #1A73E8; color: #FFFFFF; font-size: 14px; font-weight: 600; cursor: pointer">Next</button>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{s1}}" hint-placeholder-val="{{false}}">
+    <div style="position: absolute; top: 62px; left: 10px; width: 370px; height: 368px; border-radius: 22px; border: 2px solid #1A73E8; box-sizing: border-box; box-shadow: 0 0 0 2000px rgba(15, 17, 23, 0.62)"></div>
+    <div style="position: absolute; top: 446px; left: 16px; width: 358px; box-sizing: border-box; padding: 18px; border-radius: 16px; background: #FFFFFF; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); display: flex; flex-direction: column; gap: 8px">
+      <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: #5F6475">YOUR COACH · 2 OF 3</span>
+      <span style="font-size: 17px; font-weight: 600">This is your future</span>
+      <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #3F4350">I simulated 1,000 futures. The blue band is where your money is likely to go on your plan. The dashed line is what happens if you keep overspending in your red zones.</p>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 4px">
+        <button onClick="{{back}}" style="min-height: 44px; padding: 0 2px; border: 0; background: transparent; color: #5F6475; font-size: 14px; font-weight: 500; cursor: pointer">Back</button>
+        <button onClick="{{next}}" style="min-height: 44px; padding: 0 22px; border-radius: 12px; border: 0; background: #1A73E8; color: #FFFFFF; font-size: 14px; font-weight: 600; cursor: pointer">Next</button>
+      </div>
+    </div>
+  </sc-if>
+
+  <sc-if value="{{s2}}" hint-placeholder-val="{{false}}">
+    <div style="position: absolute; top: 434px; left: 10px; width: 370px; height: 318px; border-radius: 20px; border: 2px solid #1A73E8; box-sizing: border-box; box-shadow: 0 0 0 2000px rgba(15, 17, 23, 0.62)"></div>
+    <div style="position: absolute; top: 222px; left: 16px; width: 358px; box-sizing: border-box; padding: 18px; border-radius: 16px; background: #FFFFFF; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); display: flex; flex-direction: column; gap: 8px">
+      <span style="font-size: 12px; font-weight: 600; letter-spacing: 0.06em; color: #5F6475">YOUR COACH · 3 OF 3</span>
+      <span style="font-size: 17px; font-weight: 600">These are your checkpoints</span>
+      <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #3F4350">Your plan, broken into weekly steps. Red zones from your calendar show up here before they happen. Miss one and we re-plan together.</p>
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 4px">
+        <button onClick="{{back}}" style="min-height: 44px; padding: 0 2px; border: 0; background: transparent; color: #5F6475; font-size: 14px; font-weight: 500; cursor: pointer">Back</button>
+        <a href="Home.dc.html" style="display: flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 12px; background: #1A73E8; color: #FFFFFF; font-size: 14px; font-weight: 600; text-decoration: none">Got it</a>
+      </div>
+    </div>
+  </sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { step: 0 };
+  }
+  renderVals() {
+    const step = this.state.step;
+    return {
+      s0: step === 0,
+      s1: step === 1,
+      s2: step === 2,
+      next: () => this.setState({ step: Math.min(2, step + 1) }),
+      back: () => this.setState({ step: Math.max(0, step - 1) })
+    };
+  }
+}
+</script>
+</body>
+</html>
