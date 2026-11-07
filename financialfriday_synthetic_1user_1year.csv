@@ -1,0 +1,891 @@
+﻿timestamp,merchant,category,amount_gbp,type,channel,user_id
+2025-11-07 08:34,TfGM Bee Network,Transport,-4.17,debit,card,UK_SYNTH_001
+2025-11-07 12:35,Greggs,Coffee,-9.69,debit,card,UK_SYNTH_001
+2025-11-07 21:05,The Wharf,Dining,-35.72,debit,card,UK_SYNTH_001
+2025-11-07 22:30,Nightclub,Entertainment,-40.35,debit,card,UK_SYNTH_001
+2025-11-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2025-11-08 13:10,Tesco,Groceries,-39.84,debit,card,UK_SYNTH_001
+2025-11-08 16:00,Pharmacy,Personal Care,-24.78,debit,card,UK_SYNTH_001
+2025-11-09 12:15,Sainsburys,Groceries,-10.69,debit,card,UK_SYNTH_001
+2025-11-10 12:15,Lidl,Groceries,-18.77,debit,card,UK_SYNTH_001
+2025-11-10 12:35,Costa Coffee,Coffee,-3.54,debit,card,UK_SYNTH_001
+2025-11-10 19:15,Nandos,Dining,-20.66,debit,card,UK_SYNTH_001
+2025-11-11 08:34,TfGM Bee Network,Transport,-5.45,debit,card,UK_SYNTH_001
+2025-11-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2025-11-12 08:05,TfGM Bee Network,Transport,-3.93,debit,card,UK_SYNTH_001
+2025-11-13 08:05,TfGM Bee Network,Transport,-2.43,debit,card,UK_SYNTH_001
+2025-11-13 12:35,Costa Coffee,Coffee,-10.6,debit,card,UK_SYNTH_001
+2025-11-13 19:05,Sainsburys,Groceries,-17.34,debit,card,UK_SYNTH_001
+2025-11-14 15:25,Pret A Manger,Coffee,-6.31,debit,card,UK_SYNTH_001
+2025-11-14 18:20,TfGM Bee Network,Transport,-4.46,debit,card,UK_SYNTH_001
+2025-11-14 20:15,Local Pub,Dining,-32.14,debit,card,UK_SYNTH_001
+2025-11-14 21:50,Nightclub,Entertainment,-50.45,debit,card,UK_SYNTH_001
+2025-11-15 12:35,Pret A Manger,Coffee,-7.18,debit,card,UK_SYNTH_001
+2025-11-15 13:10,Tesco,Groceries,-40.33,debit,card,UK_SYNTH_001
+2025-11-16 08:20,Greggs,Coffee,-9.8,debit,card,UK_SYNTH_001
+2025-11-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2025-11-16 17:40,Aldi,Groceries,-31.46,debit,card,UK_SYNTH_001
+2025-11-17 08:34,TfGM Bee Network,Transport,-4.32,debit,card,UK_SYNTH_001
+2025-11-17 16:00,Gym Day Pass,Personal Care,-7.78,debit,card,UK_SYNTH_001
+2025-11-17 17:40,Lidl,Groceries,-11.38,debit,card,UK_SYNTH_001
+2025-11-18 08:05,Northern Rail,Transport,-2.01,debit,card,UK_SYNTH_001
+2025-11-18 15:25,Greggs,Coffee,-7.47,debit,card,UK_SYNTH_001
+2025-11-19 08:20,Pret A Manger,Coffee,-9.8,debit,card,UK_SYNTH_001
+2025-11-19 16:00,Gym Day Pass,Personal Care,-24.55,debit,card,UK_SYNTH_001
+2025-11-19 18:20,Northern Rail,Transport,-2.79,debit,card,UK_SYNTH_001
+2025-11-20 08:34,TfGM Bee Network,Transport,-5.08,debit,card,UK_SYNTH_001
+2025-11-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2025-11-21 08:34,Northern Rail,Transport,-2.21,debit,card,UK_SYNTH_001
+2025-11-21 21:05,Local Pub,Dining,-36.66,debit,card,UK_SYNTH_001
+2025-11-21 22:30,Cocktail Bar,Entertainment,-45.97,debit,card,UK_SYNTH_001
+2025-11-21 23:40,Uber,Transport,-21.22,debit,card,UK_SYNTH_001
+2025-11-22 13:10,Tesco,Groceries,-39.01,debit,card,UK_SYNTH_001
+2025-11-23 17:40,Sainsburys,Groceries,-22.52,debit,card,UK_SYNTH_001
+2025-11-24 08:05,TfGM Bee Network,Transport,-2.01,debit,card,UK_SYNTH_001
+2025-11-24 19:05,Sainsburys,Groceries,-29.89,debit,card,UK_SYNTH_001
+2025-11-25 08:20,Costa Coffee,Dining,-8.57,debit,card,UK_SYNTH_001
+2025-11-25 08:34,Northern Rail,Transport,-5.43,debit,card,UK_SYNTH_001
+2025-11-25 19:15,Nandos,Dining,-13.97,debit,card,UK_SYNTH_001
+2025-11-26 08:05,Northern Rail,Transport,-3.81,debit,card,UK_SYNTH_001
+2025-11-27 17:40,Sainsburys,Groceries,-24.78,debit,card,UK_SYNTH_001
+2025-11-28 08:05,Northern Rail,Transport,-4.92,debit,card,UK_SYNTH_001
+2025-11-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2025-11-28 20:15,The Wharf,Dining,-32.14,debit,card,UK_SYNTH_001
+2025-11-28 22:30,Nightclub,Entertainment,-54.42,debit,card,UK_SYNTH_001
+2025-11-28 23:40,Uber,Transport,-18.56,debit,card,UK_SYNTH_001
+2025-11-29 08:20,Greggs,Coffee,-3.97,debit,card,UK_SYNTH_001
+2025-11-29 13:10,Sainsburys,Groceries,-37.29,debit,card,UK_SYNTH_001
+2025-11-30 13:00,Uniqlo,Shopping,-61.59,debit,card,UK_SYNTH_001
+2025-11-30 15:25,Costa Coffee,Dining,-6.24,debit,card,UK_SYNTH_001
+2025-11-30 17:40,Sainsburys,Groceries,-19.86,debit,card,UK_SYNTH_001
+2025-12-01 08:20,Costa Coffee,Dining,-7.37,debit,card,UK_SYNTH_001
+2025-12-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2025-12-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2025-12-01 18:20,TfGM Bee Network,Transport,-2.71,debit,card,UK_SYNTH_001
+2025-12-01 19:05,Tesco,Groceries,-22.66,debit,card,UK_SYNTH_001
+2025-12-02 08:34,Northern Rail,Transport,-4.97,debit,card,UK_SYNTH_001
+2025-12-03 18:20,Northern Rail,Transport,-5.2,debit,card,UK_SYNTH_001
+2025-12-04 08:34,TfGM Bee Network,Transport,-3.2,debit,card,UK_SYNTH_001
+2025-12-04 08:40,British Gas,Bills,-79.17,debit,direct_debit,UK_SYNTH_001
+2025-12-04 17:40,Tesco,Groceries,-25.03,debit,card,UK_SYNTH_001
+2025-12-05 08:20,Greggs,Coffee,-5.89,debit,card,UK_SYNTH_001
+2025-12-06 12:35,Costa Coffee,Dining,-5.43,debit,card,UK_SYNTH_001
+2025-12-06 13:10,Sainsburys,Groceries,-23.91,debit,card,UK_SYNTH_001
+2025-12-07 12:15,Aldi,Groceries,-12.86,debit,card,UK_SYNTH_001
+2025-12-08 08:05,TfGM Bee Network,Transport,-2.11,debit,card,UK_SYNTH_001
+2025-12-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2025-12-08 12:15,Sainsburys,Groceries,-17.11,debit,card,UK_SYNTH_001
+2025-12-09 08:20,Greggs,Coffee,-3.35,debit,card,UK_SYNTH_001
+2025-12-09 18:20,TfGM Bee Network,Transport,-3.85,debit,card,UK_SYNTH_001
+2025-12-09 19:15,Deliveroo,Dining,-25.91,debit,card,UK_SYNTH_001
+2025-12-10 19:15,Nandos,Dining,-26.02,debit,card,UK_SYNTH_001
+2025-12-11 08:05,Northern Rail,Transport,-5.14,debit,card,UK_SYNTH_001
+2025-12-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2025-12-11 19:05,Lidl,Groceries,-28.23,debit,card,UK_SYNTH_001
+2025-12-11 19:15,Deliveroo,Dining,-23.72,debit,card,UK_SYNTH_001
+2025-12-12 08:34,TfGM Bee Network,Transport,-2.36,debit,card,UK_SYNTH_001
+2025-12-12 12:35,Pret A Manger,Coffee,-9.03,debit,card,UK_SYNTH_001
+2025-12-12 16:20,Boots,Shopping,-12.79,debit,card,UK_SYNTH_001
+2025-12-12 19:20,The Refuge,Dining,-23.43,debit,card,UK_SYNTH_001
+2025-12-12 21:50,Local Pub,Entertainment,-56.48,debit,card,UK_SYNTH_001
+2025-12-13 13:10,Aldi,Groceries,-20.46,debit,card,UK_SYNTH_001
+2025-12-13 15:25,Greggs,Dining,-3.74,debit,card,UK_SYNTH_001
+2025-12-14 19:05,Sainsburys,Groceries,-12.22,debit,card,UK_SYNTH_001
+2025-12-15 08:20,Costa Coffee,Coffee,-6.44,debit,card,UK_SYNTH_001
+2025-12-15 08:34,TfGM Bee Network,Transport,-4.1,debit,card,UK_SYNTH_001
+2025-12-15 16:20,Amazon Marketplace,Shopping,-9.74,debit,card,UK_SYNTH_001
+2025-12-15 17:40,Tesco,Groceries,-29.45,debit,card,UK_SYNTH_001
+2025-12-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2025-12-16 12:35,Pret A Manger,Dining,-10.16,debit,card,UK_SYNTH_001
+2025-12-17 18:20,Northern Rail,Transport,-5.04,debit,card,UK_SYNTH_001
+2025-12-18 18:12,John Lewis,Shopping,-162.4,debit,card,UK_SYNTH_001
+2025-12-18 18:20,TfGM Bee Network,Transport,-3.78,debit,card,UK_SYNTH_001
+2025-12-18 19:05,Tesco,Groceries,-30.83,debit,card,UK_SYNTH_001
+2025-12-19 08:20,Costa Coffee,Dining,-8.02,debit,card,UK_SYNTH_001
+2025-12-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2025-12-20 13:10,Aldi,Groceries,-41.65,debit,card,UK_SYNTH_001
+2025-12-20 20:25,Local Pub,Entertainment,-37.47,debit,card,UK_SYNTH_001
+2025-12-21 15:25,Costa Coffee,Dining,-6.39,debit,card,UK_SYNTH_001
+2025-12-21 17:40,Aldi,Groceries,-33.74,debit,card,UK_SYNTH_001
+2025-12-22 08:34,TfGM Bee Network,Transport,-4.31,debit,card,UK_SYNTH_001
+2025-12-22 12:15,Tesco,Groceries,-15.14,debit,card,UK_SYNTH_001
+2025-12-23 08:05,TfGM Bee Network,Transport,-5.5,debit,card,UK_SYNTH_001
+2025-12-23 20:10,Amazon Marketplace,Shopping,-11.24,debit,card,UK_SYNTH_001
+2025-12-24 15:25,Greggs,Coffee,-9.87,debit,card,UK_SYNTH_001
+2025-12-24 18:20,TfGM Bee Network,Transport,-2.59,debit,card,UK_SYNTH_001
+2025-12-24 19:15,Just Eat,Dining,-23.26,debit,card,UK_SYNTH_001
+2025-12-25 08:20,Costa Coffee,Dining,-3.53,debit,card,UK_SYNTH_001
+2025-12-25 17:40,Sainsburys,Groceries,-8.36,debit,card,UK_SYNTH_001
+2025-12-25 18:20,Northern Rail,Transport,-4.35,debit,card,UK_SYNTH_001
+2025-12-26 12:35,Costa Coffee,Coffee,-9.87,debit,card,UK_SYNTH_001
+2025-12-26 16:20,Boots,Shopping,-52.54,debit,card,UK_SYNTH_001
+2025-12-26 19:20,The Wharf,Dining,-24.89,debit,card,UK_SYNTH_001
+2025-12-27 13:10,Sainsburys,Groceries,-39.86,debit,card,UK_SYNTH_001
+2025-12-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2025-12-28 13:00,Uniqlo,Shopping,-15.44,debit,card,UK_SYNTH_001
+2025-12-29 15:25,Pret A Manger,Coffee,-7.29,debit,card,UK_SYNTH_001
+2025-12-29 19:05,Aldi,Groceries,-23.56,debit,card,UK_SYNTH_001
+2025-12-30 08:20,Pret A Manger,Dining,-7.84,debit,card,UK_SYNTH_001
+2025-12-30 18:20,Northern Rail,Transport,-3.39,debit,card,UK_SYNTH_001
+2025-12-31 08:05,TfGM Bee Network,Transport,-3.8,debit,card,UK_SYNTH_001
+2026-01-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-01-01 08:34,Northern Rail,Transport,-4.42,debit,card,UK_SYNTH_001
+2026-01-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-01-01 15:25,Costa Coffee,Coffee,-9.63,debit,card,UK_SYNTH_001
+2026-01-01 19:15,Just Eat,Dining,-24.3,debit,card,UK_SYNTH_001
+2026-01-02 08:05,Northern Rail,Transport,-2.75,debit,card,UK_SYNTH_001
+2026-01-02 12:35,Costa Coffee,Dining,-4.59,debit,card,UK_SYNTH_001
+2026-01-02 21:05,Local Pub,Dining,-29.47,debit,card,UK_SYNTH_001
+2026-01-02 22:30,Nightclub,Entertainment,-46.97,debit,card,UK_SYNTH_001
+2026-01-03 13:10,Aldi,Groceries,-41.83,debit,card,UK_SYNTH_001
+2026-01-04 08:40,British Gas,Bills,-70.88,debit,direct_debit,UK_SYNTH_001
+2026-01-04 19:05,Sainsburys,Groceries,-19.2,debit,card,UK_SYNTH_001
+2026-01-05 08:05,TfGM Bee Network,Transport,-5.19,debit,card,UK_SYNTH_001
+2026-01-05 15:25,Pret A Manger,Dining,-5.66,debit,card,UK_SYNTH_001
+2026-01-05 17:40,Tesco,Groceries,-15.58,debit,card,UK_SYNTH_001
+2026-01-06 08:05,Northern Rail,Transport,-4.08,debit,card,UK_SYNTH_001
+2026-01-06 08:20,Greggs,Coffee,-8.48,debit,card,UK_SYNTH_001
+2026-01-06 19:15,Deliveroo,Dining,-16.58,debit,card,UK_SYNTH_001
+2026-01-07 08:34,Northern Rail,Transport,-3.74,debit,card,UK_SYNTH_001
+2026-01-08 08:05,TfGM Bee Network,Transport,-5.24,debit,card,UK_SYNTH_001
+2026-01-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-01-08 12:15,Tesco,Groceries,-17.51,debit,card,UK_SYNTH_001
+2026-01-09 08:20,Greggs,Coffee,-8.37,debit,card,UK_SYNTH_001
+2026-01-09 18:20,Northern Rail,Transport,-3.43,debit,card,UK_SYNTH_001
+2026-01-09 20:15,The Wharf,Dining,-30.82,debit,card,UK_SYNTH_001
+2026-01-09 21:50,Nightclub,Entertainment,-55.38,debit,card,UK_SYNTH_001
+2026-01-10 13:10,Aldi,Groceries,-19.35,debit,card,UK_SYNTH_001
+2026-01-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-01-11 19:05,Sainsburys,Groceries,-20.16,debit,card,UK_SYNTH_001
+2026-01-12 08:20,Pret A Manger,Dining,-4.44,debit,card,UK_SYNTH_001
+2026-01-12 08:34,Northern Rail,Transport,-3.93,debit,card,UK_SYNTH_001
+2026-01-12 17:40,Aldi,Groceries,-19.45,debit,card,UK_SYNTH_001
+2026-01-13 12:35,Pret A Manger,Dining,-6.77,debit,card,UK_SYNTH_001
+2026-01-13 16:00,Gym Day Pass,Personal Care,-8.45,debit,card,UK_SYNTH_001
+2026-01-15 15:25,Costa Coffee,Coffee,-7.51,debit,card,UK_SYNTH_001
+2026-01-15 17:40,Lidl,Groceries,-31.84,debit,card,UK_SYNTH_001
+2026-01-15 18:20,Northern Rail,Transport,-3.88,debit,card,UK_SYNTH_001
+2026-01-16 08:05,Northern Rail,Transport,-5.53,debit,card,UK_SYNTH_001
+2026-01-16 08:20,Greggs,Dining,-7.93,debit,card,UK_SYNTH_001
+2026-01-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-01-16 20:10,Uniqlo,Shopping,-58.84,debit,card,UK_SYNTH_001
+2026-01-16 21:05,The Wharf,Dining,-40.08,debit,card,UK_SYNTH_001
+2026-01-16 23:40,Uber,Transport,-12.25,debit,card,UK_SYNTH_001
+2026-01-17 12:35,Pret A Manger,Coffee,-4.3,debit,card,UK_SYNTH_001
+2026-01-17 13:10,Sainsburys,Groceries,-43.25,debit,card,UK_SYNTH_001
+2026-01-17 20:10,Boots,Shopping,-33.04,debit,card,UK_SYNTH_001
+2026-01-17 20:25,Restaurant,Dining,-34.95,debit,card,UK_SYNTH_001
+2026-01-18 15:25,Costa Coffee,Coffee,-9.33,debit,card,UK_SYNTH_001
+2026-01-19 08:34,Northern Rail,Transport,-2.72,debit,card,UK_SYNTH_001
+2026-01-19 17:40,Aldi,Groceries,-8.9,debit,card,UK_SYNTH_001
+2026-01-20 08:05,Northern Rail,Transport,-2.34,debit,card,UK_SYNTH_001
+2026-01-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-01-21 08:05,Northern Rail,Transport,-3.4,debit,card,UK_SYNTH_001
+2026-01-21 19:15,Just Eat,Dining,-14.04,debit,card,UK_SYNTH_001
+2026-01-22 08:20,Costa Coffee,Coffee,-6.58,debit,card,UK_SYNTH_001
+2026-01-22 16:20,Uniqlo,Shopping,-48.66,debit,card,UK_SYNTH_001
+2026-01-22 17:40,Lidl,Groceries,-15.27,debit,card,UK_SYNTH_001
+2026-01-22 18:20,Northern Rail,Transport,-4.13,debit,card,UK_SYNTH_001
+2026-01-23 19:20,The Refuge,Dining,-32.27,debit,card,UK_SYNTH_001
+2026-01-23 23:05,Local Pub,Entertainment,-51.4,debit,card,UK_SYNTH_001
+2026-01-24 12:35,Greggs,Dining,-9.75,debit,card,UK_SYNTH_001
+2026-01-24 13:10,Tesco,Groceries,-28.86,debit,card,UK_SYNTH_001
+2026-01-25 17:40,Sainsburys,Groceries,-30.8,debit,card,UK_SYNTH_001
+2026-01-26 15:25,Pret A Manger,Coffee,-9.49,debit,card,UK_SYNTH_001
+2026-01-26 17:40,Sainsburys,Groceries,-28.77,debit,card,UK_SYNTH_001
+2026-01-26 18:20,Northern Rail,Transport,-2.33,debit,card,UK_SYNTH_001
+2026-01-26 19:15,Just Eat,Dining,-23.8,debit,card,UK_SYNTH_001
+2026-01-27 16:00,Gym Day Pass,Personal Care,-23.2,debit,card,UK_SYNTH_001
+2026-01-28 08:05,TfGM Bee Network,Transport,-5.1,debit,card,UK_SYNTH_001
+2026-01-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-01-29 17:40,Lidl,Groceries,-17.67,debit,card,UK_SYNTH_001
+2026-01-29 18:20,Northern Rail,Transport,-5.37,debit,card,UK_SYNTH_001
+2026-01-30 08:34,Northern Rail,Transport,-3.55,debit,card,UK_SYNTH_001
+2026-01-30 15:25,Costa Coffee,Dining,-8.74,debit,card,UK_SYNTH_001
+2026-01-30 19:20,The Refuge,Dining,-36.95,debit,card,UK_SYNTH_001
+2026-01-30 22:30,Nightclub,Entertainment,-20.58,debit,card,UK_SYNTH_001
+2026-01-31 13:10,Aldi,Groceries,-37.08,debit,card,UK_SYNTH_001
+2026-01-31 15:25,Costa Coffee,Coffee,-10.09,debit,card,UK_SYNTH_001
+2026-02-01 08:20,Greggs,Coffee,-10.62,debit,card,UK_SYNTH_001
+2026-02-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-02-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-02-02 15:25,Greggs,Coffee,-8.52,debit,card,UK_SYNTH_001
+2026-02-02 17:40,Aldi,Groceries,-31.47,debit,card,UK_SYNTH_001
+2026-02-03 12:35,Costa Coffee,Dining,-5.41,debit,card,UK_SYNTH_001
+2026-02-03 18:20,TfGM Bee Network,Transport,-3.51,debit,card,UK_SYNTH_001
+2026-02-04 08:34,Northern Rail,Transport,-4.53,debit,card,UK_SYNTH_001
+2026-02-04 08:40,British Gas,Bills,-78.36,debit,direct_debit,UK_SYNTH_001
+2026-02-04 15:25,Greggs,Dining,-6.85,debit,card,UK_SYNTH_001
+2026-02-05 12:15,Lidl,Groceries,-14.83,debit,card,UK_SYNTH_001
+2026-02-05 18:20,Northern Rail,Transport,-4.28,debit,card,UK_SYNTH_001
+2026-02-05 19:15,Deliveroo,Dining,-23.87,debit,card,UK_SYNTH_001
+2026-02-06 08:34,TfGM Bee Network,Transport,-2.44,debit,card,UK_SYNTH_001
+2026-02-06 21:05,The Wharf,Dining,-33.43,debit,card,UK_SYNTH_001
+2026-02-07 12:35,Pret A Manger,Coffee,-8.14,debit,card,UK_SYNTH_001
+2026-02-07 13:10,Tesco,Groceries,-42.32,debit,card,UK_SYNTH_001
+2026-02-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-02-08 12:15,Tesco,Groceries,-26.67,debit,card,UK_SYNTH_001
+2026-02-09 08:05,TfGM Bee Network,Transport,-5.54,debit,card,UK_SYNTH_001
+2026-02-09 15:25,Pret A Manger,Dining,-6.2,debit,card,UK_SYNTH_001
+2026-02-09 19:05,Lidl,Groceries,-24.61,debit,card,UK_SYNTH_001
+2026-02-10 15:25,Greggs,Coffee,-4.63,debit,card,UK_SYNTH_001
+2026-02-10 19:15,Just Eat,Dining,-21.9,debit,card,UK_SYNTH_001
+2026-02-11 08:34,TfGM Bee Network,Transport,-3.55,debit,card,UK_SYNTH_001
+2026-02-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-02-12 17:40,Sainsburys,Groceries,-17.35,debit,card,UK_SYNTH_001
+2026-02-12 18:20,Northern Rail,Transport,-3.93,debit,card,UK_SYNTH_001
+2026-02-12 19:15,Just Eat,Dining,-18.73,debit,card,UK_SYNTH_001
+2026-02-13 12:35,Pret A Manger,Dining,-10.53,debit,card,UK_SYNTH_001
+2026-02-14 12:35,Pret A Manger,Coffee,-5.96,debit,card,UK_SYNTH_001
+2026-02-14 16:00,Pharmacy,Personal Care,-7.08,debit,card,UK_SYNTH_001
+2026-02-14 20:25,Local Pub,Dining,-14.78,debit,card,UK_SYNTH_001
+2026-02-15 17:40,Sainsburys,Groceries,-20.8,debit,card,UK_SYNTH_001
+2026-02-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-02-16 15:25,Greggs,Coffee,-10.92,debit,card,UK_SYNTH_001
+2026-02-16 19:05,Sainsburys,Groceries,-27.31,debit,card,UK_SYNTH_001
+2026-02-17 08:20,Costa Coffee,Dining,-3.49,debit,card,UK_SYNTH_001
+2026-02-17 08:34,TfGM Bee Network,Transport,-2.67,debit,card,UK_SYNTH_001
+2026-02-17 20:10,Uniqlo,Shopping,-28.76,debit,card,UK_SYNTH_001
+2026-02-18 08:34,Northern Rail,Transport,-4.46,debit,card,UK_SYNTH_001
+2026-02-18 12:35,Costa Coffee,Coffee,-10.83,debit,card,UK_SYNTH_001
+2026-02-19 12:15,Tesco,Groceries,-14.62,debit,card,UK_SYNTH_001
+2026-02-19 12:35,Greggs,Coffee,-10.56,debit,card,UK_SYNTH_001
+2026-02-20 08:05,TfGM Bee Network,Transport,-3.84,debit,card,UK_SYNTH_001
+2026-02-20 08:20,Greggs,Dining,-3.37,debit,card,UK_SYNTH_001
+2026-02-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-02-20 13:00,Uniqlo,Shopping,-47.77,debit,card,UK_SYNTH_001
+2026-02-21 13:10,Sainsburys,Groceries,-37.25,debit,card,UK_SYNTH_001
+2026-02-22 16:00,Gym Day Pass,Personal Care,-14.01,debit,card,UK_SYNTH_001
+2026-02-22 19:05,Aldi,Groceries,-25.52,debit,card,UK_SYNTH_001
+2026-02-23 08:20,Pret A Manger,Coffee,-5.17,debit,card,UK_SYNTH_001
+2026-02-23 17:40,Tesco,Groceries,-26.87,debit,card,UK_SYNTH_001
+2026-02-23 18:20,TfGM Bee Network,Transport,-4.37,debit,card,UK_SYNTH_001
+2026-02-23 19:15,Nandos,Dining,-26.12,debit,card,UK_SYNTH_001
+2026-02-24 08:20,Greggs,Coffee,-7.04,debit,card,UK_SYNTH_001
+2026-02-25 15:25,Pret A Manger,Coffee,-6.61,debit,card,UK_SYNTH_001
+2026-02-25 18:20,TfGM Bee Network,Transport,-3.11,debit,card,UK_SYNTH_001
+2026-02-25 19:15,Just Eat,Dining,-14.65,debit,card,UK_SYNTH_001
+2026-02-26 15:25,Greggs,Dining,-7.81,debit,card,UK_SYNTH_001
+2026-02-26 17:40,Sainsburys,Groceries,-11.65,debit,card,UK_SYNTH_001
+2026-02-26 18:20,Northern Rail,Transport,-4.38,debit,card,UK_SYNTH_001
+2026-02-26 19:15,Nandos,Dining,-24.51,debit,card,UK_SYNTH_001
+2026-02-27 18:20,Northern Rail,Transport,-5.41,debit,card,UK_SYNTH_001
+2026-02-27 20:10,Boots,Shopping,-15.1,debit,card,UK_SYNTH_001
+2026-02-27 20:15,Local Pub,Dining,-36.08,debit,card,UK_SYNTH_001
+2026-02-27 21:50,Cocktail Bar,Entertainment,-28.72,debit,card,UK_SYNTH_001
+2026-02-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-02-28 13:10,Tesco,Groceries,-43.08,debit,card,UK_SYNTH_001
+2026-03-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-03-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-03-01 12:35,Pret A Manger,Coffee,-8.13,debit,card,UK_SYNTH_001
+2026-03-01 17:40,Aldi,Groceries,-25.83,debit,card,UK_SYNTH_001
+2026-03-02 08:20,Greggs,Dining,-7.13,debit,card,UK_SYNTH_001
+2026-03-03 18:20,Northern Rail,Transport,-5.23,debit,card,UK_SYNTH_001
+2026-03-04 08:40,British Gas,Bills,-73.07,debit,direct_debit,UK_SYNTH_001
+2026-03-04 18:20,TfGM Bee Network,Transport,-3.66,debit,card,UK_SYNTH_001
+2026-03-04 19:15,Nandos,Dining,-15.44,debit,card,UK_SYNTH_001
+2026-03-05 08:20,Pret A Manger,Coffee,-8.12,debit,card,UK_SYNTH_001
+2026-03-05 12:15,Lidl,Groceries,-15.14,debit,card,UK_SYNTH_001
+2026-03-05 19:15,Deliveroo,Dining,-26.65,debit,card,UK_SYNTH_001
+2026-03-06 08:20,Greggs,Coffee,-9.18,debit,card,UK_SYNTH_001
+2026-03-06 19:20,The Wharf,Dining,-29.24,debit,card,UK_SYNTH_001
+2026-03-07 12:35,Pret A Manger,Coffee,-10.92,debit,card,UK_SYNTH_001
+2026-03-07 13:10,Sainsburys,Groceries,-44.67,debit,card,UK_SYNTH_001
+2026-03-07 20:25,Restaurant,Dining,-20.31,debit,card,UK_SYNTH_001
+2026-03-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-03-08 19:05,Aldi,Groceries,-18.47,debit,card,UK_SYNTH_001
+2026-03-09 08:20,Pret A Manger,Dining,-8.43,debit,card,UK_SYNTH_001
+2026-03-09 19:05,Lidl,Groceries,-15.3,debit,card,UK_SYNTH_001
+2026-03-10 08:20,Pret A Manger,Dining,-3.91,debit,card,UK_SYNTH_001
+2026-03-10 18:20,Northern Rail,Transport,-3.62,debit,card,UK_SYNTH_001
+2026-03-10 19:15,Deliveroo,Dining,-23.26,debit,card,UK_SYNTH_001
+2026-03-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-03-11 18:20,TfGM Bee Network,Transport,-4.41,debit,card,UK_SYNTH_001
+2026-03-12 12:15,Lidl,Groceries,-17.27,debit,card,UK_SYNTH_001
+2026-03-12 12:35,Greggs,Coffee,-4.32,debit,card,UK_SYNTH_001
+2026-03-12 18:20,TfGM Bee Network,Transport,-3.24,debit,card,UK_SYNTH_001
+2026-03-12 20:10,Amazon Marketplace,Shopping,-16.45,debit,card,UK_SYNTH_001
+2026-03-13 08:34,TfGM Bee Network,Transport,-2.51,debit,card,UK_SYNTH_001
+2026-03-13 21:05,The Refuge,Dining,-34.93,debit,card,UK_SYNTH_001
+2026-03-13 23:05,Cocktail Bar,Entertainment,-39.63,debit,card,UK_SYNTH_001
+2026-03-13 23:40,Uber,Transport,-9.04,debit,card,UK_SYNTH_001
+2026-03-14 13:10,Aldi,Groceries,-24.3,debit,card,UK_SYNTH_001
+2026-03-15 15:25,Pret A Manger,Dining,-5.51,debit,card,UK_SYNTH_001
+2026-03-15 19:05,Lidl,Groceries,-17.75,debit,card,UK_SYNTH_001
+2026-03-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-03-16 12:35,Pret A Manger,Coffee,-3.03,debit,card,UK_SYNTH_001
+2026-03-16 16:00,Gym Day Pass,Personal Care,-31.55,debit,card,UK_SYNTH_001
+2026-03-16 17:40,Tesco,Groceries,-33.13,debit,card,UK_SYNTH_001
+2026-03-16 18:20,Northern Rail,Transport,-5.04,debit,card,UK_SYNTH_001
+2026-03-17 12:35,Costa Coffee,Dining,-3.31,debit,card,UK_SYNTH_001
+2026-03-18 08:34,Northern Rail,Transport,-2.07,debit,card,UK_SYNTH_001
+2026-03-19 08:34,TfGM Bee Network,Transport,-3.81,debit,card,UK_SYNTH_001
+2026-03-19 19:05,Aldi,Groceries,-27.69,debit,card,UK_SYNTH_001
+2026-03-19 20:10,Boots,Shopping,-20.15,debit,card,UK_SYNTH_001
+2026-03-20 08:34,Northern Rail,Transport,-4.82,debit,card,UK_SYNTH_001
+2026-03-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-03-20 15:25,Costa Coffee,Coffee,-5.14,debit,card,UK_SYNTH_001
+2026-03-20 21:05,The Refuge,Dining,-28.22,debit,card,UK_SYNTH_001
+2026-03-20 23:05,Nightclub,Entertainment,-21.42,debit,card,UK_SYNTH_001
+2026-03-21 13:10,Sainsburys,Groceries,-25.12,debit,card,UK_SYNTH_001
+2026-03-22 12:35,Costa Coffee,Coffee,-10.94,debit,card,UK_SYNTH_001
+2026-03-22 19:05,Sainsburys,Groceries,-8.13,debit,card,UK_SYNTH_001
+2026-03-23 08:05,TfGM Bee Network,Transport,-4.63,debit,card,UK_SYNTH_001
+2026-03-23 12:15,Tesco,Groceries,-31.54,debit,card,UK_SYNTH_001
+2026-03-23 13:00,Boots,Shopping,-40.01,debit,card,UK_SYNTH_001
+2026-03-24 08:05,Northern Rail,Transport,-2.79,debit,card,UK_SYNTH_001
+2026-03-24 12:35,Greggs,Coffee,-10.04,debit,card,UK_SYNTH_001
+2026-03-25 19:15,Just Eat,Dining,-24.01,debit,card,UK_SYNTH_001
+2026-03-26 08:34,Northern Rail,Transport,-2.57,debit,card,UK_SYNTH_001
+2026-03-26 12:35,Greggs,Coffee,-10.91,debit,card,UK_SYNTH_001
+2026-03-26 17:40,Tesco,Groceries,-31.6,debit,card,UK_SYNTH_001
+2026-03-27 08:20,Greggs,Dining,-10.45,debit,card,UK_SYNTH_001
+2026-03-27 08:34,TfGM Bee Network,Transport,-2.73,debit,card,UK_SYNTH_001
+2026-03-27 19:20,Local Pub,Dining,-39.6,debit,card,UK_SYNTH_001
+2026-03-27 23:05,Local Pub,Entertainment,-41.21,debit,card,UK_SYNTH_001
+2026-03-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-03-28 13:10,Tesco,Groceries,-22.64,debit,card,UK_SYNTH_001
+2026-03-28 15:25,Costa Coffee,Coffee,-3.39,debit,card,UK_SYNTH_001
+2026-03-28 20:25,Cinema,Dining,-25.42,debit,card,UK_SYNTH_001
+2026-03-29 12:15,Aldi,Groceries,-14.24,debit,card,UK_SYNTH_001
+2026-03-30 08:20,Greggs,Coffee,-4.78,debit,card,UK_SYNTH_001
+2026-03-30 08:34,Northern Rail,Transport,-3.18,debit,card,UK_SYNTH_001
+2026-03-30 17:40,Lidl,Groceries,-18.79,debit,card,UK_SYNTH_001
+2026-03-31 08:34,Northern Rail,Transport,-3.48,debit,card,UK_SYNTH_001
+2026-03-31 12:35,Costa Coffee,Coffee,-10.98,debit,card,UK_SYNTH_001
+2026-03-31 20:10,Amazon Marketplace,Shopping,-51.07,debit,card,UK_SYNTH_001
+2026-04-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-04-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-04-01 13:00,Amazon Marketplace,Shopping,-20.5,debit,card,UK_SYNTH_001
+2026-04-02 12:15,Lidl,Groceries,-27.4,debit,card,UK_SYNTH_001
+2026-04-02 18:20,Northern Rail,Transport,-5.07,debit,card,UK_SYNTH_001
+2026-04-03 08:34,Northern Rail,Transport,-3.53,debit,card,UK_SYNTH_001
+2026-04-03 20:15,Local Pub,Dining,-34.7,debit,card,UK_SYNTH_001
+2026-04-03 21:50,Cocktail Bar,Entertainment,-39.02,debit,card,UK_SYNTH_001
+2026-04-03 23:40,Uber,Transport,-21.21,debit,card,UK_SYNTH_001
+2026-04-04 08:40,British Gas,Bills,-66.91,debit,direct_debit,UK_SYNTH_001
+2026-04-04 13:10,Aldi,Groceries,-38.29,debit,card,UK_SYNTH_001
+2026-04-04 20:25,Cinema,Entertainment,-20.33,debit,card,UK_SYNTH_001
+2026-04-05 12:15,Aldi,Groceries,-11.21,debit,card,UK_SYNTH_001
+2026-04-06 12:15,Sainsburys,Groceries,-18.07,debit,card,UK_SYNTH_001
+2026-04-06 12:35,Pret A Manger,Dining,-5.07,debit,card,UK_SYNTH_001
+2026-04-07 08:05,TfGM Bee Network,Transport,-3.33,debit,card,UK_SYNTH_001
+2026-04-07 16:00,Gym Day Pass,Personal Care,-26.01,debit,card,UK_SYNTH_001
+2026-04-08 08:34,Northern Rail,Transport,-4.57,debit,card,UK_SYNTH_001
+2026-04-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-04-08 13:00,Uniqlo,Shopping,-49.16,debit,card,UK_SYNTH_001
+2026-04-09 08:20,Costa Coffee,Coffee,-10.14,debit,card,UK_SYNTH_001
+2026-04-09 10:24,Trainline,Travel,-138.6,debit,card,UK_SYNTH_001
+2026-04-09 17:40,Lidl,Groceries,-30.36,debit,card,UK_SYNTH_001
+2026-04-10 12:35,Costa Coffee,Dining,-6.92,debit,card,UK_SYNTH_001
+2026-04-10 18:20,TfGM Bee Network,Transport,-2.79,debit,card,UK_SYNTH_001
+2026-04-10 20:15,The Wharf,Dining,-24.89,debit,card,UK_SYNTH_001
+2026-04-10 23:40,Uber,Transport,-11.39,debit,card,UK_SYNTH_001
+2026-04-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-04-11 13:10,Aldi,Groceries,-44.23,debit,card,UK_SYNTH_001
+2026-04-11 20:25,Local Pub,Dining,-20.18,debit,card,UK_SYNTH_001
+2026-04-12 12:15,Lidl,Groceries,-14.45,debit,card,UK_SYNTH_001
+2026-04-12 15:25,Costa Coffee,Dining,-5.04,debit,card,UK_SYNTH_001
+2026-04-13 08:05,TfGM Bee Network,Transport,-5.58,debit,card,UK_SYNTH_001
+2026-04-13 08:20,Pret A Manger,Coffee,-5.48,debit,card,UK_SYNTH_001
+2026-04-13 12:15,Sainsburys,Groceries,-16.74,debit,card,UK_SYNTH_001
+2026-04-14 08:20,Greggs,Coffee,-9.85,debit,card,UK_SYNTH_001
+2026-04-14 08:34,TfGM Bee Network,Transport,-2.81,debit,card,UK_SYNTH_001
+2026-04-15 08:20,Greggs,Dining,-10.31,debit,card,UK_SYNTH_001
+2026-04-15 08:34,Northern Rail,Transport,-4.67,debit,card,UK_SYNTH_001
+2026-04-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-04-16 12:15,Sainsburys,Groceries,-23.97,debit,card,UK_SYNTH_001
+2026-04-16 18:20,Northern Rail,Transport,-2.43,debit,card,UK_SYNTH_001
+2026-04-16 19:15,Nandos,Dining,-15.21,debit,card,UK_SYNTH_001
+2026-04-17 08:34,TfGM Bee Network,Transport,-4.55,debit,card,UK_SYNTH_001
+2026-04-17 12:35,Greggs,Coffee,-7.63,debit,card,UK_SYNTH_001
+2026-04-17 19:20,Rudy’s Pizza,Dining,-35.35,debit,card,UK_SYNTH_001
+2026-04-17 23:05,Cocktail Bar,Entertainment,-51.12,debit,card,UK_SYNTH_001
+2026-04-17 23:40,Uber,Transport,-11.29,debit,card,UK_SYNTH_001
+2026-04-18 12:35,Greggs,Dining,-6.13,debit,card,UK_SYNTH_001
+2026-04-18 13:10,Tesco,Groceries,-22.65,debit,card,UK_SYNTH_001
+2026-04-18 20:25,Restaurant,Entertainment,-32.68,debit,card,UK_SYNTH_001
+2026-04-19 13:00,Amazon Marketplace,Shopping,-42.83,debit,card,UK_SYNTH_001
+2026-04-19 19:05,Aldi,Groceries,-17.35,debit,card,UK_SYNTH_001
+2026-04-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-04-20 15:25,Costa Coffee,Coffee,-3.37,debit,card,UK_SYNTH_001
+2026-04-20 19:05,Lidl,Groceries,-19.33,debit,card,UK_SYNTH_001
+2026-04-21 12:35,Pret A Manger,Coffee,-6.81,debit,card,UK_SYNTH_001
+2026-04-21 16:20,Amazon Marketplace,Shopping,-17.23,debit,card,UK_SYNTH_001
+2026-04-21 19:15,Just Eat,Dining,-26.4,debit,card,UK_SYNTH_001
+2026-04-22 08:20,Pret A Manger,Coffee,-4.39,debit,card,UK_SYNTH_001
+2026-04-23 13:00,Uniqlo,Shopping,-55.95,debit,card,UK_SYNTH_001
+2026-04-23 17:40,Tesco,Groceries,-10.83,debit,card,UK_SYNTH_001
+2026-04-24 13:00,Boots,Shopping,-36.04,debit,card,UK_SYNTH_001
+2026-04-24 15:25,Pret A Manger,Coffee,-6.86,debit,card,UK_SYNTH_001
+2026-04-24 18:20,Northern Rail,Transport,-4.7,debit,card,UK_SYNTH_001
+2026-04-24 21:05,Rudy’s Pizza,Dining,-35.91,debit,card,UK_SYNTH_001
+2026-04-24 23:05,Local Pub,Entertainment,-45.25,debit,card,UK_SYNTH_001
+2026-04-24 23:40,Uber,Transport,-10.42,debit,card,UK_SYNTH_001
+2026-04-25 13:10,Sainsburys,Groceries,-19.71,debit,card,UK_SYNTH_001
+2026-04-26 12:35,Costa Coffee,Dining,-6.98,debit,card,UK_SYNTH_001
+2026-04-26 16:00,Pharmacy,Personal Care,-24.21,debit,card,UK_SYNTH_001
+2026-04-26 19:05,Aldi,Groceries,-25.94,debit,card,UK_SYNTH_001
+2026-04-27 08:05,Northern Rail,Transport,-4.8,debit,card,UK_SYNTH_001
+2026-04-27 15:25,Costa Coffee,Dining,-9.73,debit,card,UK_SYNTH_001
+2026-04-27 17:40,Lidl,Groceries,-22.21,debit,card,UK_SYNTH_001
+2026-04-28 08:20,Costa Coffee,Dining,-9.44,debit,card,UK_SYNTH_001
+2026-04-28 08:34,Northern Rail,Transport,-3.45,debit,card,UK_SYNTH_001
+2026-04-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-04-29 18:20,Northern Rail,Transport,-5.16,debit,card,UK_SYNTH_001
+2026-04-30 08:05,TfGM Bee Network,Transport,-4.57,debit,card,UK_SYNTH_001
+2026-04-30 12:15,Tesco,Groceries,-13.31,debit,card,UK_SYNTH_001
+2026-04-30 12:35,Pret A Manger,Dining,-9.2,debit,card,UK_SYNTH_001
+2026-05-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-05-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-05-01 12:35,Greggs,Dining,-4.05,debit,card,UK_SYNTH_001
+2026-05-01 21:05,The Refuge,Dining,-38.3,debit,card,UK_SYNTH_001
+2026-05-01 21:50,Local Pub,Entertainment,-43.7,debit,card,UK_SYNTH_001
+2026-05-02 13:10,Sainsburys,Groceries,-33.44,debit,card,UK_SYNTH_001
+2026-05-02 15:25,Greggs,Dining,-10.65,debit,card,UK_SYNTH_001
+2026-05-02 20:25,Restaurant,Entertainment,-29.98,debit,card,UK_SYNTH_001
+2026-05-03 08:20,Costa Coffee,Dining,-10.79,debit,card,UK_SYNTH_001
+2026-05-03 17:40,Aldi,Groceries,-13.19,debit,card,UK_SYNTH_001
+2026-05-04 08:40,British Gas,Bills,-62.99,debit,direct_debit,UK_SYNTH_001
+2026-05-04 15:25,Costa Coffee,Dining,-10.55,debit,card,UK_SYNTH_001
+2026-05-04 17:40,Aldi,Groceries,-29.13,debit,card,UK_SYNTH_001
+2026-05-04 19:15,Nandos,Dining,-24.41,debit,card,UK_SYNTH_001
+2026-05-05 08:20,Greggs,Dining,-4.62,debit,card,UK_SYNTH_001
+2026-05-05 08:34,Northern Rail,Transport,-5.4,debit,card,UK_SYNTH_001
+2026-05-06 08:34,Northern Rail,Transport,-2.47,debit,card,UK_SYNTH_001
+2026-05-07 15:25,Greggs,Dining,-9.49,debit,card,UK_SYNTH_001
+2026-05-07 18:20,TfGM Bee Network,Transport,-2.28,debit,card,UK_SYNTH_001
+2026-05-07 19:05,Sainsburys,Groceries,-28.45,debit,card,UK_SYNTH_001
+2026-05-07 20:10,Boots,Shopping,-36.81,debit,card,UK_SYNTH_001
+2026-05-08 08:34,Northern Rail,Transport,-2.73,debit,card,UK_SYNTH_001
+2026-05-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-05-08 20:15,Local Pub,Dining,-25.94,debit,card,UK_SYNTH_001
+2026-05-08 22:30,Local Pub,Entertainment,-41.26,debit,card,UK_SYNTH_001
+2026-05-08 23:40,Uber,Transport,-17.74,debit,card,UK_SYNTH_001
+2026-05-09 13:10,Tesco,Groceries,-26.85,debit,card,UK_SYNTH_001
+2026-05-09 15:25,Pret A Manger,Dining,-10.25,debit,card,UK_SYNTH_001
+2026-05-09 20:25,Local Pub,Dining,-26.86,debit,card,UK_SYNTH_001
+2026-05-10 12:15,Lidl,Groceries,-30.58,debit,card,UK_SYNTH_001
+2026-05-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-05-11 19:05,Sainsburys,Groceries,-30.51,debit,card,UK_SYNTH_001
+2026-05-12 08:05,Northern Rail,Transport,-2.72,debit,card,UK_SYNTH_001
+2026-05-13 08:05,TfGM Bee Network,Transport,-3.98,debit,card,UK_SYNTH_001
+2026-05-13 08:20,Pret A Manger,Coffee,-8.53,debit,card,UK_SYNTH_001
+2026-05-13 19:15,Nandos,Dining,-24.28,debit,card,UK_SYNTH_001
+2026-05-15 08:20,Costa Coffee,Dining,-10.94,debit,card,UK_SYNTH_001
+2026-05-15 20:15,The Refuge,Dining,-19.7,debit,card,UK_SYNTH_001
+2026-05-15 22:30,Local Pub,Entertainment,-56.1,debit,card,UK_SYNTH_001
+2026-05-15 23:40,Uber,Transport,-17.37,debit,card,UK_SYNTH_001
+2026-05-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-05-17 12:15,Lidl,Groceries,-24.71,debit,card,UK_SYNTH_001
+2026-05-18 12:15,Lidl,Groceries,-32.72,debit,card,UK_SYNTH_001
+2026-05-18 19:15,Just Eat,Dining,-21.48,debit,card,UK_SYNTH_001
+2026-05-19 08:34,TfGM Bee Network,Transport,-4.64,debit,card,UK_SYNTH_001
+2026-05-19 19:15,Nandos,Dining,-26.25,debit,card,UK_SYNTH_001
+2026-05-19 20:10,Boots,Shopping,-34.72,debit,card,UK_SYNTH_001
+2026-05-20 08:34,TfGM Bee Network,Transport,-5.17,debit,card,UK_SYNTH_001
+2026-05-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-05-20 12:35,Greggs,Dining,-5.61,debit,card,UK_SYNTH_001
+2026-05-20 19:15,Nandos,Dining,-13.96,debit,card,UK_SYNTH_001
+2026-05-21 12:15,Aldi,Groceries,-10.23,debit,card,UK_SYNTH_001
+2026-05-21 12:35,Costa Coffee,Dining,-4.27,debit,card,UK_SYNTH_001
+2026-05-21 19:15,Nandos,Dining,-18.8,debit,card,UK_SYNTH_001
+2026-05-22 08:34,TfGM Bee Network,Transport,-2.66,debit,card,UK_SYNTH_001
+2026-05-22 20:10,Amazon Marketplace,Shopping,-16.68,debit,card,UK_SYNTH_001
+2026-05-23 13:10,Sainsburys,Groceries,-42.23,debit,card,UK_SYNTH_001
+2026-05-24 12:35,Costa Coffee,Coffee,-8.33,debit,card,UK_SYNTH_001
+2026-05-24 19:05,Tesco,Groceries,-30.9,debit,card,UK_SYNTH_001
+2026-05-25 12:15,Sainsburys,Groceries,-29.1,debit,card,UK_SYNTH_001
+2026-05-26 08:05,Northern Rail,Transport,-3.47,debit,card,UK_SYNTH_001
+2026-05-26 19:15,Nandos,Dining,-23.0,debit,card,UK_SYNTH_001
+2026-05-27 08:05,TfGM Bee Network,Transport,-2.41,debit,card,UK_SYNTH_001
+2026-05-28 08:20,Pret A Manger,Dining,-5.16,debit,card,UK_SYNTH_001
+2026-05-28 08:34,TfGM Bee Network,Transport,-4.59,debit,card,UK_SYNTH_001
+2026-05-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-05-28 20:10,Boots,Shopping,-46.6,debit,card,UK_SYNTH_001
+2026-05-29 08:34,Northern Rail,Transport,-5.44,debit,card,UK_SYNTH_001
+2026-05-29 15:25,Costa Coffee,Dining,-9.12,debit,card,UK_SYNTH_001
+2026-05-29 19:20,The Wharf,Dining,-24.33,debit,card,UK_SYNTH_001
+2026-05-29 22:30,Cocktail Bar,Entertainment,-49.84,debit,card,UK_SYNTH_001
+2026-05-29 23:40,Uber,Transport,-19.52,debit,card,UK_SYNTH_001
+2026-05-30 13:10,Sainsburys,Groceries,-21.56,debit,card,UK_SYNTH_001
+2026-05-30 15:25,Costa Coffee,Coffee,-5.51,debit,card,UK_SYNTH_001
+2026-05-30 20:25,Restaurant,Entertainment,-19.61,debit,card,UK_SYNTH_001
+2026-05-31 08:20,Costa Coffee,Dining,-7.9,debit,card,UK_SYNTH_001
+2026-05-31 20:10,Amazon Marketplace,Shopping,-21.9,debit,card,UK_SYNTH_001
+2026-06-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-06-01 08:34,Northern Rail,Transport,-4.73,debit,card,UK_SYNTH_001
+2026-06-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-06-01 15:25,Pret A Manger,Dining,-3.31,debit,card,UK_SYNTH_001
+2026-06-01 17:40,Aldi,Groceries,-22.06,debit,card,UK_SYNTH_001
+2026-06-02 08:20,Costa Coffee,Dining,-9.45,debit,card,UK_SYNTH_001
+2026-06-02 18:20,Northern Rail,Transport,-5.38,debit,card,UK_SYNTH_001
+2026-06-03 18:20,Northern Rail,Transport,-2.62,debit,card,UK_SYNTH_001
+2026-06-04 08:40,British Gas,Bills,-53.04,debit,direct_debit,UK_SYNTH_001
+2026-06-04 17:40,Tesco,Groceries,-24.14,debit,card,UK_SYNTH_001
+2026-06-04 20:10,Boots,Shopping,-44.03,debit,card,UK_SYNTH_001
+2026-06-05 21:05,The Refuge,Dining,-32.18,debit,card,UK_SYNTH_001
+2026-06-05 23:05,Cocktail Bar,Entertainment,-24.57,debit,card,UK_SYNTH_001
+2026-06-06 12:35,Pret A Manger,Dining,-7.92,debit,card,UK_SYNTH_001
+2026-06-06 16:00,Barber,Personal Care,-10.86,debit,card,UK_SYNTH_001
+2026-06-07 12:15,Aldi,Groceries,-13.21,debit,card,UK_SYNTH_001
+2026-06-08 08:34,TfGM Bee Network,Transport,-2.48,debit,card,UK_SYNTH_001
+2026-06-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-06-08 12:15,Aldi,Groceries,-29.19,debit,card,UK_SYNTH_001
+2026-06-09 08:05,Northern Rail,Transport,-5.53,debit,card,UK_SYNTH_001
+2026-06-09 16:20,Amazon Marketplace,Shopping,-49.41,debit,card,UK_SYNTH_001
+2026-06-09 19:15,Just Eat,Dining,-14.48,debit,card,UK_SYNTH_001
+2026-06-10 12:35,Greggs,Coffee,-5.4,debit,card,UK_SYNTH_001
+2026-06-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-06-11 15:25,Pret A Manger,Dining,-7.8,debit,card,UK_SYNTH_001
+2026-06-11 18:20,TfGM Bee Network,Transport,-3.29,debit,card,UK_SYNTH_001
+2026-06-11 19:15,Deliveroo,Dining,-24.53,debit,card,UK_SYNTH_001
+2026-06-12 15:25,Costa Coffee,Coffee,-9.99,debit,card,UK_SYNTH_001
+2026-06-13 13:10,Sainsburys,Groceries,-38.79,debit,card,UK_SYNTH_001
+2026-06-13 20:25,Local Pub,Dining,-28.31,debit,card,UK_SYNTH_001
+2026-06-14 12:15,Aldi,Groceries,-21.08,debit,card,UK_SYNTH_001
+2026-06-14 15:25,Costa Coffee,Dining,-8.95,debit,card,UK_SYNTH_001
+2026-06-15 08:20,Costa Coffee,Coffee,-7.71,debit,card,UK_SYNTH_001
+2026-06-15 08:34,Northern Rail,Transport,-4.04,debit,card,UK_SYNTH_001
+2026-06-15 17:40,Sainsburys,Groceries,-15.4,debit,card,UK_SYNTH_001
+2026-06-16 08:34,TfGM Bee Network,Transport,-4.87,debit,card,UK_SYNTH_001
+2026-06-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-06-16 15:25,Costa Coffee,Dining,-10.25,debit,card,UK_SYNTH_001
+2026-06-16 19:15,Just Eat,Dining,-26.42,debit,card,UK_SYNTH_001
+2026-06-16 20:10,Amazon Marketplace,Shopping,-16.83,debit,card,UK_SYNTH_001
+2026-06-18 08:05,TfGM Bee Network,Transport,-4.76,debit,card,UK_SYNTH_001
+2026-06-18 16:00,Pharmacy,Personal Care,-9.38,debit,card,UK_SYNTH_001
+2026-06-18 19:05,Aldi,Groceries,-14.51,debit,card,UK_SYNTH_001
+2026-06-19 12:35,Greggs,Coffee,-8.13,debit,card,UK_SYNTH_001
+2026-06-19 18:20,TfGM Bee Network,Transport,-3.24,debit,card,UK_SYNTH_001
+2026-06-19 21:05,The Refuge,Dining,-39.18,debit,card,UK_SYNTH_001
+2026-06-19 21:50,Local Pub,Entertainment,-19.85,debit,card,UK_SYNTH_001
+2026-06-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-06-20 13:10,Aldi,Groceries,-27.89,debit,card,UK_SYNTH_001
+2026-06-21 12:15,Sainsburys,Groceries,-27.38,debit,card,UK_SYNTH_001
+2026-06-21 12:35,Costa Coffee,Dining,-10.85,debit,card,UK_SYNTH_001
+2026-06-22 08:05,TfGM Bee Network,Transport,-5.04,debit,card,UK_SYNTH_001
+2026-06-22 12:35,Pret A Manger,Coffee,-4.53,debit,card,UK_SYNTH_001
+2026-06-22 16:00,Gym Day Pass,Personal Care,-16.41,debit,card,UK_SYNTH_001
+2026-06-22 19:05,Sainsburys,Groceries,-14.95,debit,card,UK_SYNTH_001
+2026-06-23 08:05,Northern Rail,Transport,-3.13,debit,card,UK_SYNTH_001
+2026-06-24 15:25,Pret A Manger,Coffee,-9.44,debit,card,UK_SYNTH_001
+2026-06-24 16:20,Amazon Marketplace,Shopping,-56.64,debit,card,UK_SYNTH_001
+2026-06-24 19:15,Nandos,Dining,-20.06,debit,card,UK_SYNTH_001
+2026-06-25 08:34,TfGM Bee Network,Transport,-4.9,debit,card,UK_SYNTH_001
+2026-06-25 19:05,Aldi,Groceries,-25.52,debit,card,UK_SYNTH_001
+2026-06-25 19:15,Nandos,Dining,-19.42,debit,card,UK_SYNTH_001
+2026-06-26 08:05,Northern Rail,Transport,-2.82,debit,card,UK_SYNTH_001
+2026-06-26 12:35,Costa Coffee,Coffee,-5.31,debit,card,UK_SYNTH_001
+2026-06-26 21:05,The Wharf,Dining,-28.01,debit,card,UK_SYNTH_001
+2026-06-26 22:30,Local Pub,Entertainment,-41.86,debit,card,UK_SYNTH_001
+2026-06-27 13:10,Sainsburys,Groceries,-33.0,debit,card,UK_SYNTH_001
+2026-06-27 15:25,Pret A Manger,Dining,-10.47,debit,card,UK_SYNTH_001
+2026-06-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-06-28 19:05,Lidl,Groceries,-26.89,debit,card,UK_SYNTH_001
+2026-06-29 17:40,Sainsburys,Groceries,-16.52,debit,card,UK_SYNTH_001
+2026-06-29 18:20,Northern Rail,Transport,-4.58,debit,card,UK_SYNTH_001
+2026-06-30 19:15,Just Eat,Dining,-13.25,debit,card,UK_SYNTH_001
+2026-07-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-07-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-07-01 12:35,Costa Coffee,Dining,-7.56,debit,card,UK_SYNTH_001
+2026-07-02 12:15,Tesco,Groceries,-20.8,debit,card,UK_SYNTH_001
+2026-07-02 15:25,Costa Coffee,Dining,-3.77,debit,card,UK_SYNTH_001
+2026-07-04 08:40,British Gas,Bills,-66.09,debit,direct_debit,UK_SYNTH_001
+2026-07-05 12:15,Tesco,Groceries,-21.87,debit,card,UK_SYNTH_001
+2026-07-05 15:25,Costa Coffee,Coffee,-5.64,debit,card,UK_SYNTH_001
+2026-07-06 15:25,Greggs,Coffee,-8.4,debit,card,UK_SYNTH_001
+2026-07-06 19:05,Sainsburys,Groceries,-32.98,debit,card,UK_SYNTH_001
+2026-07-07 08:05,TfGM Bee Network,Transport,-3.15,debit,card,UK_SYNTH_001
+2026-07-07 16:20,Amazon Marketplace,Shopping,-46.39,debit,card,UK_SYNTH_001
+2026-07-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-07-08 15:25,Pret A Manger,Dining,-9.1,debit,card,UK_SYNTH_001
+2026-07-09 17:40,Tesco,Groceries,-21.41,debit,card,UK_SYNTH_001
+2026-07-11 08:20,Costa Coffee,Dining,-8.55,debit,card,UK_SYNTH_001
+2026-07-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-07-11 13:10,Sainsburys,Groceries,-25.74,debit,card,UK_SYNTH_001
+2026-07-12 19:05,Sainsburys,Groceries,-29.58,debit,card,UK_SYNTH_001
+2026-07-12 20:10,Boots,Shopping,-22.91,debit,card,UK_SYNTH_001
+2026-07-13 16:20,Amazon Marketplace,Shopping,-15.67,debit,card,UK_SYNTH_001
+2026-07-13 17:40,Tesco,Groceries,-21.33,debit,card,UK_SYNTH_001
+2026-07-14 08:20,Greggs,Dining,-9.71,debit,card,UK_SYNTH_001
+2026-07-14 08:34,TfGM Bee Network,Transport,-5.07,debit,card,UK_SYNTH_001
+2026-07-14 16:00,Pharmacy,Personal Care,-14.41,debit,card,UK_SYNTH_001
+2026-07-14 16:20,Boots,Shopping,-14.08,debit,card,UK_SYNTH_001
+2026-07-15 12:35,Costa Coffee,Dining,-7.53,debit,card,UK_SYNTH_001
+2026-07-15 18:20,TfGM Bee Network,Transport,-3.94,debit,card,UK_SYNTH_001
+2026-07-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-07-16 15:25,Pret A Manger,Dining,-4.63,debit,card,UK_SYNTH_001
+2026-07-16 17:40,Lidl,Groceries,-19.3,debit,card,UK_SYNTH_001
+2026-07-16 18:20,Northern Rail,Transport,-3.29,debit,card,UK_SYNTH_001
+2026-07-17 08:20,Greggs,Coffee,-4.74,debit,card,UK_SYNTH_001
+2026-07-17 18:20,TfGM Bee Network,Transport,-4.06,debit,card,UK_SYNTH_001
+2026-07-17 20:10,Amazon Marketplace,Shopping,-26.03,debit,card,UK_SYNTH_001
+2026-07-17 20:15,Local Pub,Dining,-41.2,debit,card,UK_SYNTH_001
+2026-07-17 21:50,Local Pub,Entertainment,-42.65,debit,card,UK_SYNTH_001
+2026-07-17 23:40,Uber,Transport,-19.87,debit,card,UK_SYNTH_001
+2026-07-18 15:25,Costa Coffee,Dining,-4.85,debit,card,UK_SYNTH_001
+2026-07-18 20:25,Local Pub,Dining,-37.45,debit,card,UK_SYNTH_001
+2026-07-19 15:25,Greggs,Dining,-9.95,debit,card,UK_SYNTH_001
+2026-07-19 17:40,Sainsburys,Groceries,-17.45,debit,card,UK_SYNTH_001
+2026-07-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-07-20 17:40,Lidl,Groceries,-12.69,debit,card,UK_SYNTH_001
+2026-07-20 18:20,TfGM Bee Network,Transport,-4.92,debit,card,UK_SYNTH_001
+2026-07-20 19:15,Just Eat,Dining,-24.68,debit,card,UK_SYNTH_001
+2026-07-21 08:34,TfGM Bee Network,Transport,-5.18,debit,card,UK_SYNTH_001
+2026-07-21 15:25,Pret A Manger,Coffee,-6.98,debit,card,UK_SYNTH_001
+2026-07-21 20:10,Amazon Marketplace,Shopping,-28.75,debit,card,UK_SYNTH_001
+2026-07-22 08:20,Costa Coffee,Dining,-9.64,debit,card,UK_SYNTH_001
+2026-07-23 17:40,Tesco,Groceries,-30.52,debit,card,UK_SYNTH_001
+2026-07-23 19:15,Deliveroo,Dining,-24.62,debit,card,UK_SYNTH_001
+2026-07-24 20:15,Local Pub,Dining,-26.07,debit,card,UK_SYNTH_001
+2026-07-24 23:05,Nightclub,Entertainment,-34.14,debit,card,UK_SYNTH_001
+2026-07-24 23:40,Uber,Transport,-16.4,debit,card,UK_SYNTH_001
+2026-07-25 13:10,Aldi,Groceries,-33.67,debit,card,UK_SYNTH_001
+2026-07-25 16:00,Pharmacy,Personal Care,-10.61,debit,card,UK_SYNTH_001
+2026-07-25 20:25,Local Pub,Dining,-31.5,debit,card,UK_SYNTH_001
+2026-07-26 08:20,Greggs,Coffee,-9.76,debit,card,UK_SYNTH_001
+2026-07-26 12:15,Lidl,Groceries,-18.21,debit,card,UK_SYNTH_001
+2026-07-26 16:00,Pharmacy,Personal Care,-16.69,debit,card,UK_SYNTH_001
+2026-07-27 12:35,Greggs,Dining,-6.16,debit,card,UK_SYNTH_001
+2026-07-27 17:40,Sainsburys,Groceries,-25.73,debit,card,UK_SYNTH_001
+2026-07-27 19:15,Just Eat,Dining,-23.75,debit,card,UK_SYNTH_001
+2026-07-28 08:20,Pret A Manger,Coffee,-3.1,debit,card,UK_SYNTH_001
+2026-07-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-07-30 08:05,TfGM Bee Network,Transport,-2.53,debit,card,UK_SYNTH_001
+2026-07-30 08:20,Pret A Manger,Coffee,-7.17,debit,card,UK_SYNTH_001
+2026-07-30 12:15,Lidl,Groceries,-33.95,debit,card,UK_SYNTH_001
+2026-07-31 15:25,Greggs,Dining,-3.28,debit,card,UK_SYNTH_001
+2026-07-31 18:20,TfGM Bee Network,Transport,-3.84,debit,card,UK_SYNTH_001
+2026-07-31 19:20,The Refuge,Dining,-22.51,debit,card,UK_SYNTH_001
+2026-07-31 21:50,Cocktail Bar,Entertainment,-33.74,debit,card,UK_SYNTH_001
+2026-07-31 23:40,Uber,Transport,-13.14,debit,card,UK_SYNTH_001
+2026-08-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-08-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-08-01 13:10,Sainsburys,Groceries,-35.71,debit,card,UK_SYNTH_001
+2026-08-02 17:40,Tesco,Groceries,-30.65,debit,card,UK_SYNTH_001
+2026-08-03 08:34,TfGM Bee Network,Transport,-2.47,debit,card,UK_SYNTH_001
+2026-08-03 12:15,Lidl,Groceries,-24.73,debit,card,UK_SYNTH_001
+2026-08-03 16:20,Boots,Shopping,-63.28,debit,card,UK_SYNTH_001
+2026-08-04 08:40,British Gas,Bills,-63.66,debit,direct_debit,UK_SYNTH_001
+2026-08-07 08:05,Northern Rail,Transport,-2.95,debit,card,UK_SYNTH_001
+2026-08-07 15:25,Greggs,Dining,-4.54,debit,card,UK_SYNTH_001
+2026-08-07 19:20,Rudy’s Pizza,Dining,-36.63,debit,card,UK_SYNTH_001
+2026-08-07 23:05,Cocktail Bar,Entertainment,-27.29,debit,card,UK_SYNTH_001
+2026-08-07 23:40,Uber,Transport,-14.51,debit,card,UK_SYNTH_001
+2026-08-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-08-08 13:10,Sainsburys,Groceries,-39.36,debit,card,UK_SYNTH_001
+2026-08-08 15:25,Costa Coffee,Dining,-5.51,debit,card,UK_SYNTH_001
+2026-08-08 20:25,Restaurant,Dining,-18.21,debit,card,UK_SYNTH_001
+2026-08-09 12:15,Lidl,Groceries,-31.41,debit,card,UK_SYNTH_001
+2026-08-09 12:35,Greggs,Dining,-4.9,debit,card,UK_SYNTH_001
+2026-08-09 16:00,Barber,Personal Care,-11.43,debit,card,UK_SYNTH_001
+2026-08-10 08:05,Northern Rail,Transport,-3.87,debit,card,UK_SYNTH_001
+2026-08-10 08:20,Greggs,Coffee,-6.46,debit,card,UK_SYNTH_001
+2026-08-10 19:15,Deliveroo,Dining,-21.54,debit,card,UK_SYNTH_001
+2026-08-11 08:34,TfGM Bee Network,Transport,-2.97,debit,card,UK_SYNTH_001
+2026-08-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-08-11 16:20,Uniqlo,Shopping,-63.25,debit,card,UK_SYNTH_001
+2026-08-12 08:05,TfGM Bee Network,Transport,-5.09,debit,card,UK_SYNTH_001
+2026-08-12 12:35,Pret A Manger,Coffee,-8.49,debit,card,UK_SYNTH_001
+2026-08-13 08:34,Northern Rail,Transport,-2.35,debit,card,UK_SYNTH_001
+2026-08-13 12:35,Greggs,Coffee,-7.77,debit,card,UK_SYNTH_001
+2026-08-13 17:40,Aldi,Groceries,-25.23,debit,card,UK_SYNTH_001
+2026-08-14 08:05,Northern Rail,Transport,-3.62,debit,card,UK_SYNTH_001
+2026-08-14 19:20,The Wharf,Dining,-20.4,debit,card,UK_SYNTH_001
+2026-08-14 21:50,Cocktail Bar,Entertainment,-54.34,debit,card,UK_SYNTH_001
+2026-08-14 23:40,Uber,Transport,-13.26,debit,card,UK_SYNTH_001
+2026-08-15 13:10,Sainsburys,Groceries,-21.45,debit,card,UK_SYNTH_001
+2026-08-15 15:10,Hotel Booking,Travel,-245.0,debit,card,UK_SYNTH_001
+2026-08-15 20:25,Restaurant,Entertainment,-32.94,debit,card,UK_SYNTH_001
+2026-08-16 08:20,Pret A Manger,Coffee,-6.3,debit,card,UK_SYNTH_001
+2026-08-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-08-16 12:15,Aldi,Groceries,-22.81,debit,card,UK_SYNTH_001
+2026-08-17 08:34,Northern Rail,Transport,-5.28,debit,card,UK_SYNTH_001
+2026-08-17 19:05,Aldi,Groceries,-30.1,debit,card,UK_SYNTH_001
+2026-08-18 08:05,Northern Rail,Transport,-3.25,debit,card,UK_SYNTH_001
+2026-08-19 08:20,Pret A Manger,Coffee,-6.82,debit,card,UK_SYNTH_001
+2026-08-19 08:34,TfGM Bee Network,Transport,-4.86,debit,card,UK_SYNTH_001
+2026-08-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-08-20 12:15,Aldi,Groceries,-28.48,debit,card,UK_SYNTH_001
+2026-08-20 15:25,Costa Coffee,Coffee,-6.19,debit,card,UK_SYNTH_001
+2026-08-20 18:20,TfGM Bee Network,Transport,-4.99,debit,card,UK_SYNTH_001
+2026-08-21 18:20,Northern Rail,Transport,-5.53,debit,card,UK_SYNTH_001
+2026-08-22 13:10,Tesco,Groceries,-22.24,debit,card,UK_SYNTH_001
+2026-08-23 17:40,Aldi,Groceries,-16.65,debit,card,UK_SYNTH_001
+2026-08-24 08:20,Pret A Manger,Coffee,-8.86,debit,card,UK_SYNTH_001
+2026-08-24 19:05,Lidl,Groceries,-11.98,debit,card,UK_SYNTH_001
+2026-08-24 19:15,Nandos,Dining,-22.8,debit,card,UK_SYNTH_001
+2026-08-25 08:05,TfGM Bee Network,Transport,-3.84,debit,card,UK_SYNTH_001
+2026-08-25 15:25,Costa Coffee,Coffee,-5.46,debit,card,UK_SYNTH_001
+2026-08-26 08:34,Northern Rail,Transport,-4.25,debit,card,UK_SYNTH_001
+2026-08-26 16:00,Gym Day Pass,Personal Care,-20.4,debit,card,UK_SYNTH_001
+2026-08-27 15:25,Pret A Manger,Coffee,-4.8,debit,card,UK_SYNTH_001
+2026-08-27 17:40,Aldi,Groceries,-23.62,debit,card,UK_SYNTH_001
+2026-08-27 18:20,Northern Rail,Transport,-4.11,debit,card,UK_SYNTH_001
+2026-08-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-08-28 12:35,Pret A Manger,Dining,-5.54,debit,card,UK_SYNTH_001
+2026-08-28 18:20,TfGM Bee Network,Transport,-3.16,debit,card,UK_SYNTH_001
+2026-08-29 08:20,Costa Coffee,Coffee,-7.67,debit,card,UK_SYNTH_001
+2026-08-29 13:10,Aldi,Groceries,-31.71,debit,card,UK_SYNTH_001
+2026-08-29 20:25,Restaurant,Dining,-17.98,debit,card,UK_SYNTH_001
+2026-08-30 17:40,Lidl,Groceries,-28.34,debit,card,UK_SYNTH_001
+2026-08-31 19:05,Sainsburys,Groceries,-24.27,debit,card,UK_SYNTH_001
+2026-09-01 08:05,TfGM Bee Network,Transport,-3.16,debit,card,UK_SYNTH_001
+2026-09-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-09-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-09-01 12:35,Greggs,Coffee,-5.54,debit,card,UK_SYNTH_001
+2026-09-03 16:00,Gym Day Pass,Personal Care,-29.66,debit,card,UK_SYNTH_001
+2026-09-03 18:20,Northern Rail,Transport,-3.78,debit,card,UK_SYNTH_001
+2026-09-03 19:05,Lidl,Groceries,-24.47,debit,card,UK_SYNTH_001
+2026-09-04 08:20,Pret A Manger,Coffee,-5.77,debit,card,UK_SYNTH_001
+2026-09-04 08:40,British Gas,Bills,-72.89,debit,direct_debit,UK_SYNTH_001
+2026-09-04 20:15,The Refuge,Dining,-39.6,debit,card,UK_SYNTH_001
+2026-09-04 23:05,Cocktail Bar,Entertainment,-55.93,debit,card,UK_SYNTH_001
+2026-09-05 13:10,Aldi,Groceries,-19.17,debit,card,UK_SYNTH_001
+2026-09-05 15:25,Greggs,Coffee,-5.48,debit,card,UK_SYNTH_001
+2026-09-05 20:25,Cinema,Dining,-34.83,debit,card,UK_SYNTH_001
+2026-09-06 08:20,Costa Coffee,Coffee,-6.9,debit,card,UK_SYNTH_001
+2026-09-06 17:40,Aldi,Groceries,-27.55,debit,card,UK_SYNTH_001
+2026-09-07 12:35,Costa Coffee,Coffee,-6.64,debit,card,UK_SYNTH_001
+2026-09-07 17:40,Aldi,Groceries,-31.37,debit,card,UK_SYNTH_001
+2026-09-07 18:20,TfGM Bee Network,Transport,-2.6,debit,card,UK_SYNTH_001
+2026-09-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-09-08 19:15,Deliveroo,Dining,-25.04,debit,card,UK_SYNTH_001
+2026-09-09 08:34,TfGM Bee Network,Transport,-3.2,debit,card,UK_SYNTH_001
+2026-09-09 15:25,Costa Coffee,Coffee,-3.94,debit,card,UK_SYNTH_001
+2026-09-09 16:20,Boots,Shopping,-24.29,debit,card,UK_SYNTH_001
+2026-09-10 12:15,Tesco,Groceries,-10.29,debit,card,UK_SYNTH_001
+2026-09-10 19:15,Just Eat,Dining,-19.8,debit,card,UK_SYNTH_001
+2026-09-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-09-11 19:20,Local Pub,Dining,-22.2,debit,card,UK_SYNTH_001
+2026-09-11 21:50,Nightclub,Entertainment,-27.58,debit,card,UK_SYNTH_001
+2026-09-12 08:20,Pret A Manger,Coffee,-5.79,debit,card,UK_SYNTH_001
+2026-09-12 13:10,Sainsburys,Groceries,-42.56,debit,card,UK_SYNTH_001
+2026-09-13 12:35,Greggs,Dining,-9.97,debit,card,UK_SYNTH_001
+2026-09-13 17:40,Tesco,Groceries,-26.14,debit,card,UK_SYNTH_001
+2026-09-14 12:35,Greggs,Dining,-8.63,debit,card,UK_SYNTH_001
+2026-09-14 17:40,Sainsburys,Groceries,-19.77,debit,card,UK_SYNTH_001
+2026-09-15 08:20,Greggs,Dining,-8.02,debit,card,UK_SYNTH_001
+2026-09-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-09-16 19:15,Just Eat,Dining,-14.19,debit,card,UK_SYNTH_001
+2026-09-17 08:05,TfGM Bee Network,Transport,-2.74,debit,card,UK_SYNTH_001
+2026-09-17 08:20,Greggs,Dining,-4.84,debit,card,UK_SYNTH_001
+2026-09-17 19:05,Aldi,Groceries,-32.54,debit,card,UK_SYNTH_001
+2026-09-18 08:20,Greggs,Coffee,-5.97,debit,card,UK_SYNTH_001
+2026-09-18 08:34,TfGM Bee Network,Transport,-4.53,debit,card,UK_SYNTH_001
+2026-09-18 19:20,Local Pub,Dining,-23.75,debit,card,UK_SYNTH_001
+2026-09-18 21:50,Nightclub,Entertainment,-57.1,debit,card,UK_SYNTH_001
+2026-09-19 13:10,Aldi,Groceries,-24.64,debit,card,UK_SYNTH_001
+2026-09-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-09-20 12:15,Aldi,Groceries,-24.4,debit,card,UK_SYNTH_001
+2026-09-20 16:00,Pharmacy,Personal Care,-9.73,debit,card,UK_SYNTH_001
+2026-09-21 17:40,Aldi,Groceries,-15.91,debit,card,UK_SYNTH_001
+2026-09-22 18:20,TfGM Bee Network,Transport,-2.66,debit,card,UK_SYNTH_001
+2026-09-23 08:20,Costa Coffee,Dining,-3.82,debit,card,UK_SYNTH_001
+2026-09-23 08:34,Northern Rail,Transport,-4.53,debit,card,UK_SYNTH_001
+2026-09-23 16:00,Barber,Personal Care,-26.35,debit,card,UK_SYNTH_001
+2026-09-23 19:15,Deliveroo,Dining,-16.91,debit,card,UK_SYNTH_001
+2026-09-24 08:34,Northern Rail,Transport,-3.58,debit,card,UK_SYNTH_001
+2026-09-24 19:05,Lidl,Groceries,-14.49,debit,card,UK_SYNTH_001
+2026-09-24 19:15,Deliveroo,Dining,-14.09,debit,card,UK_SYNTH_001
+2026-09-25 12:35,Pret A Manger,Dining,-4.53,debit,card,UK_SYNTH_001
+2026-09-25 16:20,Uniqlo,Shopping,-63.57,debit,card,UK_SYNTH_001
+2026-09-25 18:20,Northern Rail,Transport,-4.92,debit,card,UK_SYNTH_001
+2026-09-25 19:20,The Wharf,Dining,-21.28,debit,card,UK_SYNTH_001
+2026-09-25 23:05,Local Pub,Entertainment,-32.97,debit,card,UK_SYNTH_001
+2026-09-26 13:10,Sainsburys,Groceries,-25.27,debit,card,UK_SYNTH_001
+2026-09-27 17:40,Aldi,Groceries,-32.31,debit,card,UK_SYNTH_001
+2026-09-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-09-28 19:05,Lidl,Groceries,-18.16,debit,card,UK_SYNTH_001
+2026-09-28 19:15,Just Eat,Dining,-15.66,debit,card,UK_SYNTH_001
+2026-09-29 18:20,TfGM Bee Network,Transport,-2.18,debit,card,UK_SYNTH_001
+2026-10-01 08:05,TfGM Bee Network,Transport,-2.39,debit,card,UK_SYNTH_001
+2026-10-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-10-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-10-01 12:15,Aldi,Groceries,-9.27,debit,card,UK_SYNTH_001
+2026-10-01 15:25,Costa Coffee,Dining,-10.24,debit,card,UK_SYNTH_001
+2026-10-02 08:05,TfGM Bee Network,Transport,-4.29,debit,card,UK_SYNTH_001
+2026-10-02 12:35,Greggs,Coffee,-4.84,debit,card,UK_SYNTH_001
+2026-10-02 16:00,Gym Day Pass,Personal Care,-29.19,debit,card,UK_SYNTH_001
+2026-10-02 19:20,Local Pub,Dining,-24.2,debit,card,UK_SYNTH_001
+2026-10-02 21:50,Cocktail Bar,Entertainment,-24.87,debit,card,UK_SYNTH_001
+2026-10-02 23:40,Uber,Transport,-14.17,debit,card,UK_SYNTH_001
+2026-10-03 13:10,Tesco,Groceries,-36.21,debit,card,UK_SYNTH_001
+2026-10-03 15:25,Pret A Manger,Coffee,-10.73,debit,card,UK_SYNTH_001
+2026-10-03 20:25,Restaurant,Dining,-27.42,debit,card,UK_SYNTH_001
+2026-10-04 08:20,Greggs,Dining,-8.64,debit,card,UK_SYNTH_001
+2026-10-04 08:40,British Gas,Bills,-75.69,debit,direct_debit,UK_SYNTH_001
+2026-10-04 17:40,Lidl,Groceries,-29.6,debit,card,UK_SYNTH_001
+2026-10-05 12:15,Aldi,Groceries,-13.41,debit,card,UK_SYNTH_001
+2026-10-05 12:35,Costa Coffee,Coffee,-5.26,debit,card,UK_SYNTH_001
+2026-10-05 20:10,Uniqlo,Shopping,-53.42,debit,card,UK_SYNTH_001
+2026-10-06 08:20,Greggs,Dining,-4.21,debit,card,UK_SYNTH_001
+2026-10-06 18:20,Northern Rail,Transport,-4.92,debit,card,UK_SYNTH_001
+2026-10-07 16:00,Barber,Personal Care,-15.77,debit,card,UK_SYNTH_001
+2026-10-08 08:34,Northern Rail,Transport,-4.68,debit,card,UK_SYNTH_001
+2026-10-08 08:40,Broadband,Bills,-29.99,debit,direct_debit,UK_SYNTH_001
+2026-10-08 15:25,Greggs,Coffee,-3.83,debit,card,UK_SYNTH_001
+2026-10-08 19:05,Sainsburys,Groceries,-32.65,debit,card,UK_SYNTH_001
+2026-10-09 15:25,Pret A Manger,Coffee,-3.61,debit,card,UK_SYNTH_001
+2026-10-09 21:05,Local Pub,Dining,-36.48,debit,card,UK_SYNTH_001
+2026-10-09 23:40,Uber,Transport,-20.12,debit,card,UK_SYNTH_001
+2026-10-10 13:10,Sainsburys,Groceries,-35.54,debit,card,UK_SYNTH_001
+2026-10-10 20:25,Cinema,Entertainment,-15.19,debit,card,UK_SYNTH_001
+2026-10-11 08:45,Mobile Plan,Bills,-14.0,debit,direct_debit,UK_SYNTH_001
+2026-10-11 12:15,Tesco,Groceries,-25.78,debit,card,UK_SYNTH_001
+2026-10-12 08:34,Northern Rail,Transport,-3.36,debit,card,UK_SYNTH_001
+2026-10-13 12:35,Costa Coffee,Coffee,-8.59,debit,card,UK_SYNTH_001
+2026-10-14 08:05,Northern Rail,Transport,-4.75,debit,card,UK_SYNTH_001
+2026-10-14 08:20,Greggs,Coffee,-4.17,debit,card,UK_SYNTH_001
+2026-10-15 08:05,TfGM Bee Network,Transport,-5.58,debit,card,UK_SYNTH_001
+2026-10-15 19:05,Sainsburys,Groceries,-18.58,debit,card,UK_SYNTH_001
+2026-10-16 08:45,Netflix,Subscriptions,-10.99,debit,card,UK_SYNTH_001
+2026-10-16 12:35,Pret A Manger,Coffee,-10.99,debit,card,UK_SYNTH_001
+2026-10-16 18:20,TfGM Bee Network,Transport,-5.39,debit,card,UK_SYNTH_001
+2026-10-17 08:20,Pret A Manger,Coffee,-7.93,debit,card,UK_SYNTH_001
+2026-10-17 13:10,Sainsburys,Groceries,-41.88,debit,card,UK_SYNTH_001
+2026-10-17 20:25,Restaurant,Entertainment,-29.99,debit,card,UK_SYNTH_001
+2026-10-18 19:05,Tesco,Groceries,-17.45,debit,card,UK_SYNTH_001
+2026-10-19 08:34,TfGM Bee Network,Transport,-3.23,debit,card,UK_SYNTH_001
+2026-10-19 19:05,Aldi,Groceries,-14.93,debit,card,UK_SYNTH_001
+2026-10-20 08:34,Northern Rail,Transport,-4.6,debit,card,UK_SYNTH_001
+2026-10-20 08:45,Spotify,Subscriptions,-11.99,debit,card,UK_SYNTH_001
+2026-10-20 19:15,Just Eat,Dining,-25.88,debit,card,UK_SYNTH_001
+2026-10-21 19:15,Nandos,Dining,-26.39,debit,card,UK_SYNTH_001
+2026-10-22 08:05,TfGM Bee Network,Transport,-4.59,debit,card,UK_SYNTH_001
+2026-10-22 08:20,Costa Coffee,Dining,-9.66,debit,card,UK_SYNTH_001
+2026-10-22 17:40,Lidl,Groceries,-27.26,debit,card,UK_SYNTH_001
+2026-10-23 20:15,The Wharf,Dining,-38.1,debit,card,UK_SYNTH_001
+2026-10-23 22:30,Cocktail Bar,Entertainment,-25.49,debit,card,UK_SYNTH_001
+2026-10-24 13:10,Sainsburys,Groceries,-28.02,debit,card,UK_SYNTH_001
+2026-10-24 20:25,Cinema,Entertainment,-36.38,debit,card,UK_SYNTH_001
+2026-10-25 15:25,Greggs,Coffee,-3.56,debit,card,UK_SYNTH_001
+2026-10-25 19:05,Tesco,Groceries,-23.38,debit,card,UK_SYNTH_001
+2026-10-26 12:15,Tesco,Groceries,-18.07,debit,card,UK_SYNTH_001
+2026-10-27 12:35,Costa Coffee,Coffee,-6.7,debit,card,UK_SYNTH_001
+2026-10-28 08:05,Northern Rail,Transport,-2.94,debit,card,UK_SYNTH_001
+2026-10-28 09:00,Employer Payroll,Income,2500,credit,bank_transfer,UK_SYNTH_001
+2026-10-28 19:15,Nandos,Dining,-26.19,debit,card,UK_SYNTH_001
+2026-10-29 08:20,Costa Coffee,Dining,-3.14,debit,card,UK_SYNTH_001
+2026-10-29 17:40,Tesco,Groceries,-14.89,debit,card,UK_SYNTH_001
+2026-10-30 08:05,TfGM Bee Network,Transport,-3.23,debit,card,UK_SYNTH_001
+2026-10-30 19:20,Rudy’s Pizza,Dining,-40.56,debit,card,UK_SYNTH_001
+2026-10-30 23:05,Nightclub,Entertainment,-38.0,debit,card,UK_SYNTH_001
+2026-10-30 23:40,Uber,Transport,-16.94,debit,card,UK_SYNTH_001
+2026-10-31 13:10,Tesco,Groceries,-43.02,debit,card,UK_SYNTH_001
+2026-10-31 20:25,Restaurant,Dining,-34.24,debit,card,UK_SYNTH_001
+2026-11-01 08:30,Rent Standing Order,Housing,-925,debit,bank_transfer,UK_SYNTH_001
+2026-11-01 09:00,Council Tax,Bills,-116,debit,direct_debit,UK_SYNTH_001
+2026-11-01 15:25,Greggs,Coffee,-7.47,debit,card,UK_SYNTH_001
+2026-11-01 19:05,Tesco,Groceries,-18.44,debit,card,UK_SYNTH_001
+2026-11-02 08:05,Northern Rail,Transport,-2.42,debit,card,UK_SYNTH_001
+2026-11-02 13:00,Boots,Shopping,-28.32,debit,card,UK_SYNTH_001
+2026-11-02 17:40,Lidl,Groceries,-10.36,debit,card,UK_SYNTH_001
+2026-11-03 08:05,Northern Rail,Transport,-5.11,debit,card,UK_SYNTH_001
+2026-11-04 08:05,TfGM Bee Network,Transport,-4.3,debit,card,UK_SYNTH_001
+2026-11-04 08:40,British Gas,Bills,-53.79,debit,direct_debit,UK_SYNTH_001
+2026-11-05 18:20,Northern Rail,Transport,-3.77,debit,card,UK_SYNTH_001
+2026-11-06 08:34,TfGM Bee Network,Transport,-3.83,debit,card,UK_SYNTH_001
+2026-11-06 21:05,Local Pub,Dining,-23.79,debit,card,UK_SYNTH_001
+2026-11-06 22:30,Cocktail Bar,Entertainment,-45.36,debit,card,UK_SYNTH_001
