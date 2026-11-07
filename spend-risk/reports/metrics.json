@@ -1,0 +1,144 @@
+{
+  "threshold_gbp": 166.01,
+  "train_days": 1096,
+  "test_days": 304,
+  "abnormal_days_test": 25,
+  "base_rate_test": 0.082,
+  "roc_auc": 0.75,
+  "average_precision": 0.375,
+  "precision_at_10": 0.6,
+  "precision_at_25": 0.36,
+  "baseline_precision_at_10": 0.1,
+  "baseline_precision_at_25": 0.12,
+  "top_drivers": [
+    "in_event_window",
+    "day",
+    "days_to_anniversary",
+    "days_to_ceremony",
+    "dow",
+    "days_to_payday"
+  ],
+  "spend_mae_gbp": 41.33,
+  "spend_median_abs_error_gbp": 25.95,
+  "spend_mae_pct_of_mean": 59.11,
+  "spend_forecast_total_gbp": 19056.5,
+  "spend_actual_total_gbp": 21258.13,
+  "data_days": 1400,
+  "mean_daily_spend": 72.93,
+  "forecast_window": [
+    "2026-11-01",
+    "2027-10-31"
+  ],
+  "forecast_total": 27273.84,
+  "days_flagged_abnormal": 21,
+  "top_weekday": "Sat",
+  "category_share": {
+    "Shopping": 34.1,
+    "Groceries": 20.3,
+    "Dining": 16.3,
+    "Gifts": 9.2,
+    "Bills": 7.2,
+    "Transport": 6.2,
+    "Entertainment": 3.7,
+    "Health": 2.9
+  },
+  "occasion_share": {
+    "Ordinary day": 40.5,
+    "Weekend": 24.6,
+    "Bills day": 13.6,
+    "Wedding ceremony": 5.3,
+    "Payday": 5.1,
+    "Christmas": 5.0,
+    "Birthday": 2.3,
+    "Anniversary": 1.3,
+    "Family ceremony": 1.1,
+    "Black Friday": 0.9,
+    "New Year": 0.3
+  },
+  "top_upcoming_days": [
+    {
+      "date": "2026-11-28",
+      "weekday": "Sat",
+      "p_abnormal": 0.954,
+      "expected_spend": 249.76,
+      "occasion": "Weekend"
+    },
+    {
+      "date": "2026-11-27",
+      "weekday": "Fri",
+      "p_abnormal": 0.946,
+      "expected_spend": 246.66,
+      "occasion": "Black Friday"
+    },
+    {
+      "date": "2026-11-26",
+      "weekday": "Thu",
+      "p_abnormal": 0.929,
+      "expected_spend": 252.29,
+      "occasion": "Ordinary day"
+    },
+    {
+      "date": "2026-12-19",
+      "weekday": "Sat",
+      "p_abnormal": 0.904,
+      "expected_spend": 243.7,
+      "occasion": "Weekend"
+    },
+    {
+      "date": "2026-12-20",
+      "weekday": "Sun",
+      "p_abnormal": 0.864,
+      "expected_spend": 232.17,
+      "occasion": "Christmas"
+    },
+    {
+      "date": "2026-12-21",
+      "weekday": "Mon",
+      "p_abnormal": 0.851,
+      "expected_spend": 217.06,
+      "occasion": "Christmas"
+    },
+    {
+      "date": "2026-12-25",
+      "weekday": "Fri",
+      "p_abnormal": 0.807,
+      "expected_spend": 177.14,
+      "occasion": "Christmas"
+    },
+    {
+      "date": "2026-12-23",
+      "weekday": "Wed",
+      "p_abnormal": 0.803,
+      "expected_spend": 198.93,
+      "occasion": "Christmas"
+    },
+    {
+      "date": "2027-03-14",
+      "weekday": "Sun",
+      "p_abnormal": 0.727,
+      "expected_spend": 161.97,
+      "occasion": "Birthday"
+    },
+    {
+      "date": "2027-03-13",
+      "weekday": "Sat",
+      "p_abnormal": 0.716,
+      "expected_spend": 161.65,
+      "occasion": "Birthday"
+    },
+    {
+      "date": "2027-02-05",
+      "weekday": "Fri",
+      "p_abnormal": 0.707,
+      "expected_spend": 131.75,
+      "occasion": "Bills day"
+    },
+    {
+      "date": "2026-11-25",
+      "weekday": "Wed",
+      "p_abnormal": 0.688,
+      "expected_spend": 180.45,
+      "occasion": "Payday"
+    }
+  ]
+}
